@@ -1,0 +1,21 @@
+{
+  "name": "product-development",
+  "version": "0.1.0",
+  "description": "Product Development at Learners Guild",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnersGuild/product-development.git"
+  },
+  "author": "Jeffrey Wescott <jeffrey@learnersguild.org>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LearnersGuild/product-development/issues"
+  },
+  "homepage": "https://github.com/LearnersGuild/product-development#readme",
+  "devDependencies": {
+    "gitbook-cli": "^1.0.0"
+  }
+}
