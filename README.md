@@ -20,7 +20,7 @@ Edit, update, or add content as described in the [GitBook Help][gitbook-help].
 
 Publish your changes using the pre-configured [npm][npm] commands:
 
-    $ npm run docs:publish
+    $ git push && npm run docs:publish
 
 
 
