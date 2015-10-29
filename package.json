@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Product Development at Learners Guild",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:clean": "rimraf _book",
+    "docs:prepare": "gitbook install",
+    "docs:build": "npm run docs:prepare && gitbook build",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:publish": "npm run docs:clean && npm run docs:build && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:LearnersGuild/product-development gh-pages"
   },
   "repository": {
     "type": "git",
@@ -17,5 +21,8 @@
   "homepage": "https://github.com/LearnersGuild/product-development#readme",
   "devDependencies": {
     "gitbook-cli": "^1.0.0"
+  },
+  "dependencies": {
+    "rimraf": "^2.4.3"
   }
 }
