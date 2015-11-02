@@ -7,7 +7,7 @@
     "prepare": "gitbook install",
     "build": "npm run prepare && gitbook build",
     "watch": "npm run prepare && gitbook serve",
-    "publish": "npm run clean && npm run build && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:LearnersGuild/product-development gh-pages --force"
+    "publish": "npm run clean && npm run build && cd _book && git init && git commit --allow-empty -m 'deploy to GitHub gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'deploy to GitHub gh-pages' && git push git@github.com:LearnersGuild/product-development gh-pages --force"
   },
   "repository": {
     "type": "git",
