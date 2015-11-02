@@ -1,7 +1,7 @@
 # Summary
 
 - [Personas](personas/README.md)
-- [Systems](services/README.md)
+- [Services](services/README.md)
   - [Identity Management](services/admissions.md)
   - [Group Collaboration](services/group-collaboration.md)
   - [Challenge Taking and Review](services/challenge-taking-and-review.md)
