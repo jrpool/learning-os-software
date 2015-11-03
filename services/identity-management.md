@@ -18,7 +18,7 @@ A user wants to update a challenge in the curriculum, and visits the [Challenge 
 
 ### Association
 
-A user wants to know which other users are in her pod. From Slack, she uses the appropriate [slash command](slack-slash-command) to list her pod-mates. The "bot" handling requests for the slash command queries the Identity Management service and renders the returned API result to the user via http response.
+A user wants to know which other users are in her pod. From the [Group Collaboration](group-collaboration.md) service, she uses the appropriate command-line interface to list her pod-mates. The bot / webhook handling requests for that command queries the Identity Management service and renders the returned API result to the user via http response.
 
 ## Data Owned
 
