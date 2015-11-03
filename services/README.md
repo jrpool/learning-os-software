@@ -4,7 +4,7 @@ As mentioned in the [Global Requirements](../global-requirements/soa.md), Learne
 
 It's worth noting that, at this early stage having very little software yet built, these services are "aspirational" more than they are "accurate". As the software begins to come together, this section will be updated as appropriate to reflect the reality of what is current.
 
-It's also worth noting that not all of these systems will necessarily be created and maintained by Learners Guild. For example, we may decide to use something like [Slack][slack] for group collaboration.
+It's also worth noting that not all of these systems will necessarily be created and maintained by Learners Guild. For example, we may decide to use something like [Slack][slack] for group collaboration, or [Loomio][loomio] for collaborative decision-making.
 
 That said, the subsections contained herein are some of the services we anticipate, along with the data that they will own.
 
@@ -12,3 +12,4 @@ That said, the subsections contained herein are some of the services we anticipa
 <!-- resources -->
 
 [slack]:https://slack.com/
+[loomio]:https://www.loomio.org/
