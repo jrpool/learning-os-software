@@ -2,6 +2,8 @@
 
 The Admissions service manages the process of moving an Applicant to a Member Learner within a Pod. Not all Applicants, of course, will be accepted into a pod. It's also possible that some Applicants will already be Non-Member Learners.
 
+It is quite possible that this is mostly a "front end" service with some associated background jobs, but that not much data is owned by this service specifically. It has dependencies on a huge number of other services.
+
 ## Use Case Examples
 
 ### Invite and Overview
@@ -10,7 +12,7 @@ An individual receives an email invitation to apply for Learners Guild. She clic
 
 ### Reject: Culture Mismatch
 
-After reading and understanding how Learners Guild work, a potential Applicant clicks / taps "Apply" and is immediately directed to a psychographic survey (TBD) that will act as an initial filter for "culture fit" within Learners Guild. It is determined that the candidate is not a strong culture-fit and a friendly message explaining that is displayed.
+After reading and understanding how Learners Guild work, a potential Applicant clicks / taps "Apply" and is immediately directed to a psychographic survey (TBD) from the [Survey](survey.md) service that will act as an initial filter for "culture fit" within Learners Guild. It is determined that the candidate is not a strong culture-fit and a friendly message explaining that is displayed.
 
 ### Reject: Missing Aptitude
 
@@ -45,3 +47,4 @@ An Applicant visits the Admissions service to check-in on her status within the 
 ## Data Owned
 
 - documentation about what Learners Guild is, how it works, etc.
+- interactive aptitude challenges
