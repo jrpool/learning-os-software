@@ -6,6 +6,10 @@ Any user on the system, regardless of which roles that user plays.
 
 An Applicant is a potential Learner who hasn't yet completed the admissions process, but has indicated that they're interested in becoming a member.
 
+# Challenge
+
+A piece of curriculum that may be completed by a Learner designed to teach and give practice with one or more particular skills.
+
 # Chapter
 
 A Chapter has a physical location that various Pods use for on-site learning and collaboration.
@@ -13,6 +17,10 @@ A Chapter has a physical location that various Pods use for on-site learning and
 # Cohort
 
 A Cohort is a set of Pods with a shared start date.
+
+# Learner
+
+Either a Non-member Learner or Member Learner. Someone who is engaged with the curriculum within Learners Guild.
 
 # Master
 
