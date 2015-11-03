@@ -4,6 +4,10 @@ The identity management service is a core component to most (if not all) other L
 
 ## Use Case Examples
 
+### Sign-up
+
+After passing the culture and aptitude screenings, an Applicant is redirected to the Identity Management service service to sign-up and create a profile. She must authenticate using a Google Account and also grant read-write permissions to her Google Calendar. She must also complete any other required profile information. Once complete, she will be directed back to the Admissions system to complete that process.
+
 ### Authentication
 
 A user wants to work on her next challenge, and tries to access the [Challenge Taking and Review](challenge-taking-and-review.md) service. Said user does not have a valid token to access the system, and is redirected to the Identity Management service to authenticate. User authenticates successfully using her connected Google account, then is redirected to the Challenge Taking and Review system as she initially requested.
