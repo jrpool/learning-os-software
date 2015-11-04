@@ -4,13 +4,9 @@ The Surveys service is responsible for asking questions to users in the Learners
 
 ## Use Cases
 
-### Question Creation
+### Question Creation and Assignment
 
-Based on some analysis of currently-running Learners Guild experiment, a Partner wants to ask the Learners a specific question in order to gain insight into said experiment. She visits the Survey service and is presented an interface to add a question, specifying:
-  - the question
-  - the scale of possible responses
-  - the target (e.g., Users, Pod, Cohort, Chapter, All Learners, etc.)
-  - the frequency of administration (e.g., every 3 weeks, once per month on the first Tuesday)
+Based on some analysis of currently-running Learners Guild experiment, a Partner wants to ask the Learners a specific question in order to gain insight into said experiment. She visits the Survey service and is presented an interface to add a question and target it to one or more groups of users.
 
 ### Response Collection
 
@@ -29,4 +25,8 @@ A user wishes to see how her answers or a particular groups answers to a particu
 ## Data Owned
 
 - survey questions
+  - question text
+  - the scale of possible responses
+  - the target (e.g., Users, Pod, Cohort, Chapter, All Learners, etc.)
+  - the frequency of administration (e.g., every 3 weeks, once per month on the first Tuesday)  
 - responses
