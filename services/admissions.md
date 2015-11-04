@@ -12,7 +12,7 @@ An individual receives an email invitation to apply for Learners Guild. She clic
 
 ### Reject: Culture Mismatch
 
-After reading and understanding how Learners Guild work, a potential Applicant clicks / taps "Apply" and is immediately directed to a psychographic survey (TBD) from the [Survey](survey.md) service that will act as an initial filter for "culture fit" within Learners Guild. It is determined that the candidate is not a strong culture-fit and a friendly message explaining that is displayed.
+After reading and understanding how Learners Guild work, a potential Applicant clicks / taps "Apply" and is immediately directed to a psychographic survey (TBD) that will act as an initial filter for "culture fit" within Learners Guild. It is determined that the candidate is not a strong culture-fit and a friendly message explaining that is displayed.
 
 ### Reject: Missing Aptitude
 
