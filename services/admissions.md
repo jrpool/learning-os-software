@@ -1,6 +1,6 @@
 # Admissions
 
-The Admissions service manages the process of moving an Applicant to a Member Learner within a Pod. Not all Applicants, of course, will be accepted into a pod. It's also possible that some Applicants will already be Non-Member Learners.
+The Admissions service manages the process of moving a Non-Member learner to Applicant to a Member Learner within a Pod. Not all Applicants, of course, will be accepted into a pod. It's also possible that some Applicants will already be Non-Member Learners.
 
 It is quite possible that this is mostly a "front end" service with some associated background jobs, but that not much data is owned by this service specifically. It has dependencies on a huge number of other services.
 
@@ -8,7 +8,7 @@ It is quite possible that this is mostly a "front end" service with some associa
 
 ### Invite and Overview
 
-An individual receives an email invitation to apply for Learners Guild. She clicks through to the link in the email and is taken to a page that explains Learners Guild, how it works, etc.
+An individual receives an email invitation to checkout Learners Guild. She clicks through to the link in the email and is taken to a page that explains Learners Guild, how it works, etc.
 
 ### Reject: Culture Mismatch
 
