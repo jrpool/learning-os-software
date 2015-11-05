@@ -9,5 +9,8 @@
     "github": {
       "url": "https://github.com/LearnersGuild/product-development"
     }
+  },
+  "variables": {
+    "guide_glossary": "git+https://github.com/LearnersGuild/guide.git/GLOSSARY.md"
   }
 }
