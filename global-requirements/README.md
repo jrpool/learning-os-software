@@ -6,6 +6,23 @@ All of our software has certain requirements that must be considered "global" to
 
 ### [Service-oriented Architecture](soa.md)
 
+### Simple Interfaces First
+
+Services are as heavy as they need to be, but never heavier. The human interface has a strong influence on service complexity; to keep the service simple, start by ensuring a simple interface.
+
+Each human-facing service should expose a command line interface when possible, and resort to a GUI only when needed. Solve the simplest problem with the simplest solution. Keep it simple.
+
+An archetypal evolution of a service looks something this:
+
+1. Born as an idea for system behavior
+1. Captured as written guidelines
+1. Practiced in human behavior and interactions
+1. Need for software identified; third-party software adapted to use
+1. Need for greater specialization; service designed and specs written
+1. Text-based interface service built
+1. New features push boundaries of text-based interface; GUI designed
+1. GUI interface built for service
+
 ### No Tight Coupling to Third-Party Services
 
 Wherever possible, in the case where one of the services in the system is maintained by a third-party, an adapter or bridge should be written which we *do maintain*.
