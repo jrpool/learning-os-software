@@ -1,6 +1,6 @@
 # Feedback
 
-The Feedback system is responsible for soliciting interpersonal feedback from one user to another within Learners Guild. It also allows feedback recipients to rate the feedback they receive based on certain, specific criteria.
+The Feedback system is responsible for soliciting and relaying interpersonal feedback from one user to another within Learners Guild. It also allows feedback recipients to rate the feedback they receive based on certain, specific criteria.
 
 ## Use Cases
 
