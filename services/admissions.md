@@ -4,6 +4,10 @@ The Admissions service manages the process of moving a Non-Member learner to App
 
 It is quite possible that this is mostly a "front end" service with some associated background jobs, but that not much data is owned by this service specifically. It has dependencies on a huge number of other services.
 
+## Requirements
+
+- All collaboration among applicants must be done via a web browser. This may imply some kind of cloud-based IDE a la [Nitrous.io][nitrous-io] or [CodeAnywhere][codeanywhere].
+
 ## Use Case Examples
 
 ### Invite and Overview
@@ -48,3 +52,9 @@ An Applicant visits the Admissions service to check-in on her status within the 
 
 - documentation about what Learners Guild is, how it works, etc.
 - interactive aptitude challenges
+
+
+<!-- resources -->
+
+[nitrous-io]:https://www.nitrous.io/
+[codeanywhere]:https://codeanywhere.com/
