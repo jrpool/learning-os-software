@@ -50,7 +50,7 @@ Every service has a purpose and primary use case(s); integration tests explicitl
 
 For Ruby, we use the [GitHub Ruby Styleguide][gh-ruby-styleguide].
 
-For JavaScript, we use [Idiomatic.js][idiomatic.js].
+For JavaScript, we use [AirBnB's Styleguide][airbnb-js-styleguide], with the exception that semicolons are _not_ required. 
 
 ##### Code is linted
 
@@ -105,7 +105,7 @@ For example, in a `package.json` requiring the `gitbook-cli` package, use the sy
 [eslint]:http://eslint.org/
 [good-commit-messages]:http://chris.beams.io/posts/git-commit/
 [gh-ruby-styleguide]:https://github.com/styleguide/ruby
-[idiomatic.js]:https://github.com/rwaldron/idiomatic.js/
+[airbnb-js-styleguide]:https://github.com/airbnb/javascript
 [gh-flow]:https://guides.github.com/introduction/flow/
 [soa]:../global-requirements/soa.md
 [semver]:http://semver.org/
