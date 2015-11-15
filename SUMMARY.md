@@ -13,6 +13,7 @@
   - [Surveys](services/surveys.md)
   - [Alumni Portal](services/alumni-portal.md)
   - [Collaborative Decision-Making](services/collaborative-decision-making.md)
+  - [Skill Graph](services/skill-graph.md)
 - [Global Requirements](global-requirements/README.md)
   - [Service-oriented Architecture](global-requirements/soa.md)
 - [Best Practices](best-practices/README.md)
