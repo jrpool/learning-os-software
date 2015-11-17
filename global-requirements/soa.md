@@ -4,6 +4,8 @@ The Learners Guild software is comprised of a suite of [micro-services][microser
 
 SOA is fundamentally a network-powered extension of [Modular programming][modular-programming-wikipedia] and the [Unix philosophy][unix-philosophy-wikipedia].
 
+Services fall within one of three [service types](#service-types) and adhere to the specifications of their associated type.
+
 ## Why?
 
 But ... isn't it easier to just build one big monolithic application? Maybe, but *probably not*. There are several advantages that you gain by thinking in terms of services rather than one big application, including:
@@ -29,6 +31,10 @@ If a service needs to be replaced for some reason (scalability, maintainability,
 In a typical monolithic web application, there's typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA-approach, each service is responsible for its own data and interfaces.
 
 ## Service Types
+
+The type of a service defines its purpose, appropriate scope for responsibilities, and how it interacts with other services.
+
+If our SOA were a rainforest, the service types would be Trees, Animals, and Soil.
 
 ### Core
 
