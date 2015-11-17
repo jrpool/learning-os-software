@@ -3,6 +3,7 @@
 - [Personas](personas/README.md)
 - [Services](services/README.md)
   - [Identity Management](services/identity-management.md)
+  - [Locus](services/locus.md)
   - [Group Collaboration](services/group-collaboration.md)
   - [Challenge Taking and Review](services/challenge-taking-and-review.md)
   - [Challenge Authoring](services/challenge-authoring.md)
