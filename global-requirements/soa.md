@@ -28,6 +28,36 @@ If a service needs to be replaced for some reason (scalability, maintainability,
 
 In a typical monolithic web application, there's typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA-approach, each service is responsible for its own data and interfaces.
 
+## Service Types
+
+### Core
+
+Core services manage internal data and business logic. They are networked and expose a secure web API.
+
+**Examples**
+
+- Identity Management
+- Feedback API
+
+### Interface
+
+Interface services provide a UI and front-end behavior (validations, basic UX) for interacting with one or more core services. They range from command-line tools to full web or mobile apps.
+
+**Examples**
+
+- Command-Line Task List
+- Locus
+
+### Adapter
+
+Adapter services provide a bridge between internal core services or between core services and third-party software. They are purpose-built to link data between two APIs and create a dependency buffer between them, thus insulating services against external changes.
+
+**Examples**
+
+- Slack Integration for Pairing Service
+- Data Sync between Survey Software and Core Metrics Service
+- Web Hook on GitHub to Capture Student Submissions and Update Challenge Service
+
 
 
 <!-- references -->
