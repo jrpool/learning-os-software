@@ -4,6 +4,8 @@ The Learners Guild software is comprised of a suite of [micro-services][microser
 
 SOA is fundamentally a network-powered extension of [Modular programming][modular-programming-wikipedia] and the [Unix philosophy][unix-philosophy-wikipedia].
 
+Services fall within one of three [service types](#service-types) and adhere to the specifications of their associated type.
+
 ## Why?
 
 But ... isn't it easier to just build one big monolithic application? Maybe, but *probably not*. There are several advantages that you gain by thinking in terms of services rather than one big application, including:
@@ -28,6 +30,40 @@ If a service needs to be replaced for some reason (scalability, maintainability,
 
 In a typical monolithic web application, there's typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA-approach, each service is responsible for its own data and interfaces.
 
+## Service Types
+
+The type of a service defines its purpose, appropriate scope for responsibilities, and how it interacts with other services.
+
+If our SOA were a rainforest, the service types would be Trees, Animals, and Soil.
+
+### Core
+
+Core services manage internal data and business logic. They are networked and expose a secure web API.
+
+**Examples**
+
+- [Identity Management (IDM)][identity-management-service]
+- [Feedback][feedback-service]
+
+### Interface
+
+Interface services provide a UI and front-end behavior (validations, basic UX) for interacting with one or more core services. They range from command-line tools to full web or mobile apps.
+
+**Examples**
+
+- Command-Line Task List
+- [Locus][locus-service]
+
+### Adapter
+
+Adapter services provide a bridge between internal core services or between core services and third-party software. They are purpose-built to link data between two APIs and create a dependency buffer between them, thus insulating services against external changes.
+
+**Examples**
+
+- Slack Integration for Pairing Service
+- Data Sync between Survey Software and Core Metrics Service
+- Web Hook on GitHub to Capture Student Submissions and Update Challenge Service
+
 
 
 <!-- references -->
@@ -36,3 +72,6 @@ In a typical monolithic web application, there's typically a single data store (
 [modular-programming-wikipedia]:https://en.wikipedia.org/wiki/Modular_programming
 [unix-philosophy-wikipedia]:https://en.wikipedia.org/wiki/Unix_philosophy
 [microservices-wikipedia]:https://en.wikipedia.org/wiki/Microservices
+[locus-service]:../services/locus.md
+[identity-management-service]:../services/identity-management.md
+[feedback-service]:../services/feedback.md
