@@ -42,8 +42,8 @@ Core services manage internal data and business logic. They are networked and ex
 
 **Examples**
 
-- Identity Management
-- Feedback API
+- [Identity Management (IDM)][identity-management-service]
+- [Feedback][feedback-service]
 
 ### Interface
 
@@ -52,7 +52,7 @@ Interface services provide a UI and front-end behavior (validations, basic UX) f
 **Examples**
 
 - Command-Line Task List
-- Locus
+- [Locus][locus-service]
 
 ### Adapter
 
@@ -72,3 +72,6 @@ Adapter services provide a bridge between internal core services or between core
 [modular-programming-wikipedia]:https://en.wikipedia.org/wiki/Modular_programming
 [unix-philosophy-wikipedia]:https://en.wikipedia.org/wiki/Unix_philosophy
 [microservices-wikipedia]:https://en.wikipedia.org/wiki/Microservices
+[locus-service]:../services/locus.md
+[identity-management-service]:../services/identity-management.md
+[feedback-service]:../services/feedback.md
