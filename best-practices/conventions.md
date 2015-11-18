@@ -10,6 +10,7 @@ With that in mind, file structure may vary a bit from project to project. Here i
     README.md           # purpose, orientation, installation, getting started
     CONTRIBUTING.md     # how to edit / contribute to the codebase
     LICENSE             # license text (e.g., "ISC" for open-source or "UNLICENSED" for proprietary)
+    circle.yml          # integration with Circle CI to run automated tests
     client/             # (for client and universal apps) code that only runs client-side
     common/             # (for universal apps) code that may run client- or server-side
     config/             # configuration files or code

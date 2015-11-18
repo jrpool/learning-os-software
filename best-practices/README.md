@@ -38,9 +38,11 @@ Coverage is not a perfect measurement of a solid testing suite, but as a single 
 
 Good developers will write more robust tests for the most critical components of their code, and lighter tests for the auxiliary pieces.
 
-##### Unit tests are fast
+##### Unit tests are fast, and run automatically
 
 A good unit testing suite should run in < 5 seconds and should _never_ depend on external libraries or services.
+
+All projects should integrate with [Circle CI][circle-ci] to run tests in the cloud.
 
 ##### Integration tests exist for common use cases
 
@@ -111,3 +113,4 @@ For example, in a `package.json` requiring the `gitbook-cli` package, use the sy
 [gh-flow]:https://guides.github.com/introduction/flow/
 [soa]:../global-requirements/soa.md
 [semver]:http://semver.org/
+[circle-ci]:https://circleci.com/
