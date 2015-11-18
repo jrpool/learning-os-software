@@ -22,10 +22,11 @@ We also use this image as the default for our remote pairing service.
 
 ## Remote Pairing
 
-TBD.
+An early proof-of-concept for our remote pairing tool exists. It is based on [Floobits][floobits] and is called [Cloud Collab][cloud-collab].
 
 <!-- references -->
 
 [docker-toolbox]:https://www.docker.com/docker-toolbox
 [git]:https://git-scm.com/
 [github]:https://github.com/
+[cloud-collab]:[https://github.com/LearnersGuild/cloud-collab-docker]
