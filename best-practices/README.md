@@ -18,6 +18,8 @@ At minimum, this document covers or links to:
 - How to contribute
 - Where to go for help
 
+In addition, any code we write should make a best attempt at following a standard set of [conventions](conventions.md) for things like file structure and file naming. Furthermore, if a service is being started from scratch, it should use one of our predefined project templates or generators.
+
 ##### Code is self-documenting
 
 Inline documentation and comments are reserved for rare occasions of exceptionally complicated code. Code is written in such a way as to reflect its intent and usage clearly (using proper variable and function names, for example).
@@ -50,7 +52,7 @@ Every service has a purpose and primary use case(s); integration tests explicitl
 
 For Ruby, we use the [GitHub Ruby Styleguide][gh-ruby-styleguide].
 
-For JavaScript, we use [AirBnB's Styleguide][airbnb-js-styleguide], with the exception that semicolons are _not_ required. 
+For JavaScript, we use [AirBnB's Styleguide][airbnb-js-styleguide], with the exception that semicolons are _not_ required.
 
 ##### Code is linted
 
