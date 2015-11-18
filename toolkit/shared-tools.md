@@ -4,9 +4,9 @@ The shared development tools and environments available to all software develope
 
 ## Source and Version Control
 
-We use git for version control.
+We use [git][git] for version control.
 
-We use GitHub as a repository store for all services, to track issues, and to coordinate development.
+We use [GitHub][github] as a repository store for all services, to track issues, and to coordinate development.
 
 ## Service Generator
 
@@ -27,3 +27,5 @@ TBD.
 <!-- references -->
 
 [docker-toolbox]:https://www.docker.com/docker-toolbox
+[git]:https://git-scm.com/
+[github]:https://github.com/
