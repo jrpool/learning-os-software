@@ -6,7 +6,7 @@ The identity management service is a core component to most (if not all) other L
 
 ### Sign-up
 
-After passing the culture and aptitude screenings, an Applicant is redirected to the Identity Management service service to sign-up and create a profile. She must authenticate using a Google Account and also grant read-write permissions to her Google Calendar. She must also complete any other required profile information. Once complete, she will be directed back to the Admissions system to complete that process.
+In order to start the culture and aptitude screenings, an Applicant is redirected to the Identity Management service service to sign-up and create a profile. She must authenticate using a Google Account and also grant read-write permissions to her Google Calendar. She must also complete any other required profile information. Once complete, she will be directed back to the Enrollment system to start the screening process.
 
 ### Authentication
 
