@@ -4,6 +4,15 @@ Discipline in following best practices is the key to effective collaboration and
 
 At Learners Guild, we adhere to the following practices.
 
+## Security
+
+##### All communication over encrypted channel
+
+APIs should only expose endpoints over HTTPS. This should be true for standard request-response APIs (RESTful and otherwise) as well as any "push" APIs (via something like Web Sockets).
+
+Client applications should always communicate with internal APIs over HTTPS.
+
+
 ## Documentation
 
 ##### Every repository has a README
