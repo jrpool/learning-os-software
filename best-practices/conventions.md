@@ -16,6 +16,7 @@ With that in mind, file structure may vary a bit from project to project. Here i
     config/             # configuration files or code
     dist/               # (for client and universal apps) in .gitignore, for bundled assets
     public/             # (for server and universal apps) publicly-accessible static assets
+    scripts/            # scripts for automation and other common tasks
     server/             # (for server and universal apps) code that only runs server-side
 
 
