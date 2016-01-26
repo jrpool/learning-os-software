@@ -17,13 +17,13 @@ It may be the case that there are _multiple_ command-line interfaces. For exampl
 An archetypal evolution of a service looks something this:
 
 1. Born as an idea for system behavior
-1. Captured as written guidelines
-1. Practiced in human behavior and interactions
-1. Need for software identified; third-party software adapted to use
-1. Need for greater specialization; service designed and specs written
-1. Text-based interface service built
-1. New features push boundaries of text-based interface; GUI designed
-1. GUI interface built for service
+2. Captured as written guidelines
+3. Practiced in human behavior and interactions
+4. Need for software identified; third-party software adapted to use
+5. Need for greater specialization; service designed and specs written
+6. Text-based interface service built
+7. New features push boundaries of text-based interface; GUI designed
+8. GUI interface built for service
 
 ### No Tight Coupling to Third-Party Services
 
