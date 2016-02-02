@@ -4,6 +4,8 @@ All of our software has certain requirements that must be considered "global" to
 
 ## Easily-Articulated Requirements
 
+### [Lean](lean.md)
+
 ### [Service-oriented Architecture](soa.md)
 
 ### Simple Interfaces First
