@@ -12,7 +12,7 @@ Services are as heavy as they need to be, but never heavier. The human interface
 
 Each human-facing service should expose a command line interface when possible, and resort to a GUI only when needed. Solve the simplest problem with the simplest solution. Keep it simple.
 
-It may be the case that there are _multiple_ command-line interfaces. For example, the [Group Collaboration Service][group-collaboration-service] might provide commands or "bot" interactions to allow interactions with various services.
+It may be the case that there are _multiple_ command-line interfaces. For example, a Group Collaboration Service might provide commands or "bot" interactions to allow interactions with various services.
 
 An archetypal evolution of a service looks something this:
 
@@ -40,8 +40,3 @@ Furthermore, in the long-term, there may be as many as tens of thousands of user
 ### Responsive User Experience
 
 Every service with a web-based user interface must be mobile-responsive. All interface designs must take into account the reality that, while commuting, users may want to at least browse / read information. The mobile interface does not need to support *every* interaction, just the ones that make sense on a mobile device.
-
-
-<!-- references -->
-
-[group-collaboration-service]:../services/group-collaboration.md
