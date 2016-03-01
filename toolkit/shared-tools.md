@@ -10,13 +10,13 @@ We use [GitHub][github] as a repository store for all services, to track issues,
 
 ## Service Generator
 
-All services adhere to a specified file structure template.
+All services should (as much as possible) adhere to a specified file structure template.
 
-We use custom Yeoman generators to build new services according to our specified templates.
+Aspirationally, we would like to use a custom [Plop][plop] generator to build new services according to our specified templates.
 
 ## Default Disk Image
 
-We maintain a Docker image with a standard environment setup. Using the [Docker Toolbox][docker-toolbox] learners and partners can run this containerized environment on their local machine.
+Aspirationally, we would like to maintain a Docker image with a standard environment setup. Using the [Docker Toolbox][docker-toolbox] learners and partners can run this containerized environment on their local machine.
 
 We also use this image as the default for our remote pairing service.
 
@@ -29,4 +29,5 @@ An early proof-of-concept for our remote pairing tool exists. It is based on [Fl
 [docker-toolbox]:https://www.docker.com/docker-toolbox
 [git]:https://git-scm.com/
 [github]:https://github.com/
-[cloud-collab]:[https://github.com/LearnersGuild/cloud-collab-docker]
+[cloud-collab]:https://github.com/LearnersGuild/cloud-collab-docker
+[plop]:https://github.com/amwmedia/plop

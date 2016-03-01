@@ -14,18 +14,14 @@ This document serves to capture the "recommended setup" or standard configuratio
 
 - [Docker Toolbox][docker-toolbox]
 
-## Env Setup & Management (via Docker image)
+## Env Setup & Management
 
-- [rbenv][rbenv] and [ruby-build][ruby-build] for managing Ruby versions
 - [nvm][nvm] and [npm][npm] for managing Node.js versions and packages
 
 ## Runtimes (via Docker image)
 
-- Ruby 2.2.* (install via ruby-build)
 - Node.js 4.* (install via nvm)
 - Git 2.* (install via Homebrew)
-- SQLite 3.* (install via Homebrew)
-- PostgreSQL 9.* (install via Homebrew)
 
 ## Applications
 
