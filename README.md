@@ -2,13 +2,7 @@
 
 ## Overview
 
-Looking for the back-story on the software at Learners Guild?
-
-Looking for best practices, policies, or global requirements for the software?
-
-Want to learn more about our process?
-
-You're in the right place.
+This is the central repository for software development at Learners Guild. It gives the back-story on the best practices and global requirements for all of our software, and also provides a "jumping off point" to other repositories that comprise our software suite. Since we manage our development flow with [ZenHub][ZenHub], we can also see the consolidated Kanban board here.
 
 ## Living Document
 
