@@ -1,28 +1,26 @@
 {
-  "name": "product-development",
-  "version": "0.1.0",
-  "description": "Product Development at Learners Guild",
+  "name": "learning-os-software",
+  "version": "0.2.0",
+  "description": "Learning OS Software",
   "scripts": {
     "clean": "rimraf _book",
     "prepare": "gitbook install",
     "build": "npm run prepare && gitbook build",
     "watch": "npm run prepare && gitbook serve",
-    "publish": "npm run clean && npm run build && cd _book && git init && git commit --allow-empty -m 'deploy to GitHub gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'deploy to GitHub gh-pages' && git push git@github.com:LearnersGuild/product-development gh-pages --force"
+    "publish": "npm run clean && npm run build && cd _book && git init && git commit --allow-empty -m 'deploy to GitHub gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'deploy to GitHub gh-pages' && git push git@github.com:LearnersGuild/learning-os-software gh-pages --force"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LearnersGuild/product-development.git"
+    "url": "git+https://github.com/LearnersGuild/learning-os-software.git"
   },
   "author": "Jeffrey Wescott <jeffrey@learnersguild.org>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/LearnersGuild/product-development/issues"
+    "url": "https://github.com/LearnersGuild/learning-os-software/issues"
   },
-  "homepage": "https://github.com/LearnersGuild/product-development#readme",
+  "homepage": "https://github.com/LearnersGuild/learning-os-software#readme",
   "devDependencies": {
-    "gitbook-cli": "^1.0.0"
-  },
-  "dependencies": {
+    "gitbook-cli": "^1.0.0",
     "rimraf": "^2.4.3"
   }
 }
