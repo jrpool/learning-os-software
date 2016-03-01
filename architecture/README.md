@@ -9,7 +9,7 @@ Everything we build conforms the principles of [service-oriented-architectures](
 ### SSO
 
 - **Domains:** authentication data
-- **Accountabilities:** "social" authentication, single-sign-on
+- **Accountabilities:** "authentication, single-sign-on
 - **Powered by:** [Auth0][auth0]
 
 ### Chat
