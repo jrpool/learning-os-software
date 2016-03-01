@@ -8,28 +8,40 @@ Everything we build conforms the principles of [service-oriented-architectures](
 
 ### SSO
 
+- **Domains:** authentication data
+- **Accountabilities:** "social" authentication, single-sign-on
 - **Powered by:** [Auth0][auth0]
 
 ### Chat
 
+- **Domains:** real-time chat logs
+- **Accountabilities:** real-time chat, "launchpad" for other Learners Guild services
 - **Endpoint:** https://chat.learnersguild.org
 - **Repository:** https://github.com/LearnersGuild/Rocket.Chat
 - **Powered by:** [Rocket.Chat][rocket.chat]
 
 #### Chat Customizations
 
+- **Domains:** Rocket.Chat customizations
+- **Accountabilities:** "launchpad" for other Learners Guild services
+- **Repository:** (COMING SOON)
+
+### Player Stats
+
+- **Domains:** player feedback, player statistics
+- **Accountabilities:** "retrospective" and feedback interactions, stats APIs
 - **Repository:** (COMING SOON)
 
 ### Event Log
 
+- **Domains:** log data for player actions
+- **Accountabilities:** player action data logging and reporting
 - **Powered by:** [Keen.io][keen.io]
-
-### Player Stats
-
-- **Repository:** (COMING SOON)
 
 ### Identity Management
 
+- **Domains:** user data
+- **Accountabilities:** authorization, user data APIs
 - **Endpoint:** https://idm.learnersguild.org
 - **Repository:** https://github.com/LearnersGuild/idm
 
