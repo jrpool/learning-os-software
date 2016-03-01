@@ -15,4 +15,4 @@ Find something inconsistent our out of date? Please submit a pull-request!
 
 [zenhub]: https://www.zenhub.io/
 [consolidated-kanban-board]: https://github.com/LearnersGuild/learning-os-software#boards
-[learning-os-software-gitbook]: https://learnersguild.github.io/learning-os-software/
+[learning-os-software-gitbook]: https://software.learnersguild.org
