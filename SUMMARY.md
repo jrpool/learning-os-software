@@ -1,5 +1,6 @@
 # Summary
 
+- [Architecture](architecture/README.md)
 - [Toolkit](toolkit/README.md)
   - [Shared Tools](toolkit/shared-tools.md)
   - [Standard Configuration](toolkit/standard-config.md)
