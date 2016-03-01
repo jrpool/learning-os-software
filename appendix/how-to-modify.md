@@ -5,7 +5,7 @@ All content is in [GitHub Flavored Markdown][gfm]. Make sure you understand that
 Then, clone this repository:
 
 ```bash
-$ git clone git@github.com/LearnersGuild/product-development && cd product-development
+$ git clone git@github.com/LearnersGuild/learning-os-software && cd learning-os-software
 ```
 
 Install project dependencies using [npm][npm]:
@@ -23,7 +23,7 @@ $ atom .    # or whatever editor you use
 Publish your changes using the pre-configured [npm][npm] commands:
 
 ```bash
-$ git push && npm run publish
+$ git push && npm run book:publish
 ```
 
 Need more help?
