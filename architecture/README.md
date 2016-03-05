@@ -6,12 +6,6 @@ Everything we build conforms the principles of [service-oriented-architectures](
 
 ## Services
 
-### SSO
-
-- **Domains:** authentication data
-- **Accountabilities:** "authentication, single-sign-on
-- **Powered by:** [Auth0][auth0]
-
 ### Chat
 
 - **Domains:** real-time chat logs
@@ -26,9 +20,15 @@ Everything we build conforms the principles of [service-oriented-architectures](
 - **Accountabilities:** "launchpad" for other Learners Guild services
 - **Repository:** (COMING SOON)
 
+### Challenges (maybe?)
+
+- **Domains:** challenges, challenge ratings, challenge discussion
+- **Accountabilities:** ratings and comments about challenges
+- **Repository:** (COMING MAYBE?)
+
 ### Player Stats
 
-- **Domains:** player feedback, player statistics
+- **Domains:** teams, goals, player feedback, player statistics
 - **Accountabilities:** "retrospective" and feedback interactions, stats APIs
 - **Repository:** (COMING SOON)
 
@@ -41,9 +41,16 @@ Everything we build conforms the principles of [service-oriented-architectures](
 ### Identity Management
 
 - **Domains:** user data
-- **Accountabilities:** authorization, user data APIs
+- **Accountabilities:** SSO, authentication, authorization, user data APIs
 - **Endpoint:** https://idm.learnersguild.org
 - **Repository:** https://github.com/LearnersGuild/idm
+
+## Other Software
+
+### Chrome Extension (maybe?)
+
+- **Accountabilities:** interactions with LG APIs via GitHub
+- **Repository:** (COMING MAYBE?)
 
 
 [arch-diagram]: https://www.lucidchart.com/publicSegments/view/701b182a-c988-4eea-8231-ecae99571426/image.png
