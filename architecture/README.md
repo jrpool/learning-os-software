@@ -6,9 +6,16 @@ Everything we build conforms the principles of [service-oriented-architectures](
 
 ## Services
 
+### Identity Management
+
+- **Domains:** user data
+- **Accountabilities:** SSO, authentication, authorization, user data APIs
+- **Endpoint:** https://idm.learnersguild.org
+- **Repository:** https://github.com/LearnersGuild/idm
+
 ### Chat
 
-- **Domains:** real-time chat logs
+- **Domains:** real-time chat among players
 - **Accountabilities:** real-time chat, "launchpad" for other Learners Guild services
 - **Endpoint:** https://chat.learnersguild.org
 - **Repository:** https://github.com/LearnersGuild/Rocket.Chat
@@ -16,34 +23,21 @@ Everything we build conforms the principles of [service-oriented-architectures](
 
 #### Chat Customizations
 
-- **Domains:** Rocket.Chat customizations
-- **Accountabilities:** "launchpad" for other Learners Guild services
-- **Repository:** (COMING SOON)
+- **Domains:** Rocket.Chat custom packages for LG functionality
+- **Accountabilities:** chat single-sign-on, additional /slash commands
+- **Repositories:** https://github.com/LearnersGuild/rocketchat-lg-sso, https://github.com/LearnersGuild/rocketchat-lg-slash-commands
 
-### Challenges (maybe?)
+### Game
 
-- **Domains:** challenges, challenge ratings, challenge discussion
-- **Accountabilities:** ratings and comments about challenges
-- **Repository:** (COMING MAYBE?)
-
-### Player Stats
-
-- **Domains:** teams, goals, player feedback, player statistics
-- **Accountabilities:** "retrospective" and feedback interactions, stats APIs
-- **Repository:** (COMING SOON)
+- **Domains:** teams, goals, game statistics
+- **Accountabilities:** team assignment, goal assignment, player statistics
+- **Repository:** https://github.com/LearnersGuild/game
 
 ### Event Log
 
 - **Domains:** log data for player actions
 - **Accountabilities:** player action data logging and reporting
 - **Powered by:** [Keen.io][keen.io]
-
-### Identity Management
-
-- **Domains:** user data
-- **Accountabilities:** SSO, authentication, authorization, user data APIs
-- **Endpoint:** https://idm.learnersguild.org
-- **Repository:** https://github.com/LearnersGuild/idm
 
 ## Other Software
 
@@ -54,6 +48,5 @@ Everything we build conforms the principles of [service-oriented-architectures](
 
 
 [arch-diagram]: https://www.lucidchart.com/publicSegments/view/701b182a-c988-4eea-8231-ecae99571426/image.png
-[auth0]: https://auth0.com/
 [rocket.chat]: https://rocket.chat/
 [keen.io]: https://keen.io/
