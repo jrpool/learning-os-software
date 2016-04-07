@@ -8,6 +8,10 @@ We use [git][git] for version control.
 
 We use [GitHub][github] as a repository store for all services, to track issues, and to coordinate development.
 
+## Local Domain to Port Mapping
+
+We use [pow][pow] to avoid the nightmare of remembering which app / service runs on which `localhost:PORT`.
+
 ## Service Generator
 
 All services should (as much as possible) adhere to a specified file structure template.
@@ -31,3 +35,4 @@ An early proof-of-concept for our remote pairing tool exists. It is based on [Fl
 [github]:https://github.com/
 [cloud-collab]:https://github.com/LearnersGuild/cloud-collab-docker
 [plop]:https://github.com/amwmedia/plop
+[pow]:http://pow.cx/
