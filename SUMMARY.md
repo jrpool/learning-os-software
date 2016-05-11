@@ -9,6 +9,7 @@
   - [Service-oriented Architecture](global-requirements/soa.md)
 - [Best Practices](best-practices/README.md)
   - [Conventions](best-practices/conventions.md)
+- [Design Guide](design-guide/README.md)
 - [Auth, Authz, and SSO](identity-management/README.md)
 - [Appendix](appendix/README.md)
   - [How to Modify This Documentation](appendix/how-to-modify.md)
