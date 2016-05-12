@@ -4,29 +4,58 @@ This document lists and describes the actions available to users.
 
 There are two types of users: Learners and Moderators. When working on a project, Learners take on the role of either a Team Lead or Team Member.
 
-## All Actions
+## Common Actions
+
+Common actions are used frequently and take the form of `> /action [options]`.
+
+Common actions are mostly used by Learners.
 
 | Command    | Description                                    |
 |:-----------|:-----------------------------------------------|
-| `/status`  | Get status of learner, project, or cycle       |
-| `/search`  | Search for goals, projects, learners, and more |
-| `/list`    | List goals, projects, help requests, and more  |
-| `/create`  | Create a new goal                              |
-| `/play`    | Activate a learner                             |
-| `/pause`   | Deactivate a learner for current cycle         |
 | `/vote`    | Vote on goals                                  |
 | `/request` | Submit a help or feedback request              |
 | `/offer`   | Offer help or feedback                         |
-| `/profile` | Edit your user profile                         |
+| `/log`     | Log feedback, retrospectives, and other events |
 
-## Moderator-Only Actions
+## Compound Actions
 
-| Command   | Description                                    |
-|:----------|:-----------------------------------------------|
-| `/start`  | Start a cycle                                  |
-| `/make`   | Run scripts to aid in game moderation          |
-| `/invite` | Invite learner to project (built-in command)   |
-| `/kick`   | Remove learner from project (built-in command) |
+Compound actions take the form of `> /object action [options]`. The object provides the context for the action.
+
+Compound actions are mostly used by Moderators.
+
+### Command: `/cycle`
+
+| Action   | Description                               |
+|:---------|:------------------------------------------|
+| `status` | Get status of cycle                       |
+| `launch` | Form projects from votes (to begin cycle) |
+
+### Command: `/learner`
+
+| Action  | Description                            |
+|:--------|:---------------------------------------|
+| `play`  | Activate a learner                     |
+| `pause` | Deactivate a learner for current cycle |
+
+### Command: `/goal`
+
+| Action   | Description       |
+|:---------|:------------------|
+| `create` | Create a new goal |
+
+### Command: `/project`
+
+| Action           | Description                          |
+|:-----------------|:-------------------------------------|
+| `status <id>`    | Get status of project with id `<id>` |
+| `search [query]` | Search for projects                  |
+| `list`           | List projects                        |
+
+## Misc. Actions
+
+| Command    | Description            |
+|:-----------|:-----------------------|
+| `/profile` | Edit your user profile |
 
 ## General UX
 
