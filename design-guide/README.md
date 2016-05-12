@@ -16,50 +16,56 @@ Our interface and experience design is bounded by this set of design constraints
 
 _Note: language here conforms to [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) standards._
 
-### Use verbs for actions
+### Use verbs for common actions
 
-Commands for user actions _should_ take the grammatical form of `verb + object`.
+Commands for common and frequently used learner actions _should_ take the grammatical form of `verb + object`.
 
 Objects can be omitted when not necessary or when a sensible default is available.
 
 **Examples:**
 
 ```
-> /vote 3 1             => vote on goals 3 and 1
-> /request help         => submit a help request
-> /play                 => make current learner active
-> /pause @jerry         => pause learner with handle @jerry
-> /pause                => pause the current learner
-> /search --goal React  => search goals for text "React"
+> /vote 3 1          => vote on goals 3 and 1
+> /request -h        => submit a help request
+> /offer -f #bee-12  => offer feedback on project bee-12
+> /log --retro       => log a retrospective
 ```
+
+**Reason:** most command-line interfaces use verbs for commands, so learners will not have as much context switching to do when moving between other CLI environments and ours.
 
 ### Use nouns for navigation and inspection
 
 Commands for navigation and inspection _should_ be nouns.
 
-Commands in noun form _must not_ affect game state.
+**Examples:**
+
+```
+> /profile            => open account profile panel
+> /cycle              => show cycle stats
+> /project            => show current project
+> /goal 12            => show goal with id 12
+> /goal search React  => search goals for text "React"
+```
+
+**Reason:** for looking at and searching for _things_ in the system, it is most natural to start with the _kind of thing_.
+
+### Use object as context identifier for mutable actions when necessary
+
+When a context is important for actions that mutate game state, the action _should_ be supplied as an argument to a command in noun form.
 
 **Examples:**
 
 ```
-/profile   => open account profile panel
-/goals     => open goal library
-/status    => show user stats
+> /goal create                     => make a new goal
+> /cycle launch                    => start the cycle (form projects from votes)
+> /project create 12               => create a new project from goal 12
+> /project add #bee-12 @jerry -m   => add @jerry to project bee-12 as a team member
+> /learner play                    => make current learner active
+> /learner pause @jerry            => pause learner with handle @jerry
+> /learner pause                   => pause the current learner
 ```
 
-### Use nouns for options and argument modifiers
-
-When options are provided for commands, they _should_ be nouns.
-
-Argument modifiers _should_ be prefixed with `--` and be nouns.
-
-**Examples:**
-
-```
-/status project       => show project status
-/request feedback     => submit a feedback request
-/search --goal React  => search goals for text "React"
-```
+**Reason:** there will be a growing list of ways to interact with core game objects, so having an object-first approach provides important context and reduces overall amount of commands.
 
 ### Provide an immediate response
 
