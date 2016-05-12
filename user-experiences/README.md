@@ -25,10 +25,12 @@ Compound actions are mostly used by Moderators.
 
 ### Command: `/cycle`
 
-| Action   | Description                               |
-|:---------|:------------------------------------------|
-| `status` | Get status of cycle                       |
-| `launch` | Form projects from votes (to begin cycle) |
+| Action   | Description                                     |
+|:---------|:------------------------------------------------|
+| `status` | Get status of cycle                             |
+| `launch` | Form projects from votes (to begin cycle)       |
+| `play`   | Allow cycle actions (voting, retrospectives)    |
+| `pause`  | Disallow cycle actions (voting, retrospectives) |
 
 ### Command: `/learner`
 
@@ -87,61 +89,57 @@ Stories:
 **Stories (happy path)**:
 
 - Check status of voting
-  - `/status next`
-- Start cycle (form projects)
-  - `/start`
+  - `/cycle status`
+- Launch cycle (form projects)
+  - `/cycle launch`
 - View formed projects
-  - `/list projects`
-- Check status of retrospective
-  - `/status`
+  - `/project list`
+- Check status of current cycle (show retrospective data)
+  - `/cycle status`
 
 **Stories (manual override)**:
 
 - Play/pause learners
-  - `/play @learner`
-  - `/pause @learner`
+  - `/learner play @handle`
+  - `/learner pause @handle`
 - Start/stop voting
-  - `/start votes`
-  - `/stop votes`
+  - `/cycle play`
+  - `/cycle pause`
 - Assign learners to projects
-  - `/invite @learner` (from project channel)
+  - `/project add #proj-id @handle --member`
+  - `/project add #proj-id @handle --lead`
+  - `/project add @handle --member` (from project channel)
 - Remove learners from projects
-  - `/kick @learner` (from project channel)
-- Make a learner a team lead
-  - `/make lead @learner #project-channel`
-- Make a learner a team member
-  - `/make member @learner #project-channel`
+  - `/project remove #proj-id @handle`
+  - `/project remove @handle` (from project channel)
 - Start/stop retrospective
-  - `/start retro`
-  - `/stop retro`
+  - `/cycle play`
+  - `/cycle pause`
 
 ### Flow: Lifecycle of a Cycle
 
 The core accountability of Moderators is to oversee cycles. They are responsible for ensuring that voting happens, that projects are formed appropriately, and that a retrospective occurs at the end of a cycle.
 
-1. `/status next` : check status of votes for next (upcoming) cycle
-  - If the next cycle is ready to start (all active chapter learners have voted and all retrospectives for current cycle have been submitted)...
+1. `/cycle status` : check status of votes for the current cycle
+  - If the cycle is ready to be launched (all active chapter learners have voted)...
     - "Ready" message is displayed
-    - Moderator is prompted to run `/start` to start the next cycle
+    - Moderator is prompted to run `/cycle launch` to form projects
   - Else...
     - "Waiting" message is displayed
-    - Description indicates why next cycle is not ready to be started (e.g. vote quorum not met, outstanding retrospectives)
-1. `/start` : start the next cycle by forming teams
-  - If the next cycle cannot be started...
+    - Description indicates why cycle is not ready to be launched (e.g. vote quorum not met)
+1. `/cycle launch` : move the cycle into `PRACTICE` state by forming teams
+  - If the cycle cannot be moved into `PRACTICE` state...
     - Error message with explanation displayed (see above for "Waiting" condition)
-  - Game transitions from current cycle to next
-    - Current cycle is set to inactive
-    - All projects in current cycle are set to inactive
+  - Practice stage begins
     - Projects are formed from votes
-    - Next cycle is set to active
-    - Projects are set to active
-  - "Cycle started" message is displayed
+    - Cycle is set to `PRACTICE` state
+  - "Practice started" message is displayed
     - Public announcement to all learners
     - Includes information about projects and teams
-1. `/list projects` : show the list of currently active projects
+1. `/project list` : show the list of currently active projects
   - Displays information about the projects for the current cycle
-1. `/status` : check status of current cycle
-  - Running `/status` with no arguments displays information about the currently active cycle
+1. `/cycle status` : check status of current cycle
+  - Running `/cycle status` displays information about the currently active cycle
   - Overview of project statuses and % completion of retrospectives is displayed
 
 ## Team Member UX
