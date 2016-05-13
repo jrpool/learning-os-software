@@ -36,23 +36,26 @@ Compound actions are mostly used by Moderators.
 
 ### Command: `/learner`
 
-| Action  | Description                            |
-|:--------|:---------------------------------------|
-| `play`  | Activate a learner                     |
-| `pause` | Deactivate a learner for current cycle |
+| Action            | Description                                                  |
+|:------------------|:-------------------------------------------------------------|
+| `play <@handle>`  | Activate learner with handle `<@handle>`                     |
+| `pause <@handle>` | Deactivate learner with handle `<@handle>` for current cycle |
 
 ### Command: `/goal`
 
-| Action   | Description       |
-|:---------|:------------------|
-| `create` | Create a new goal |
+| Action           | Description              |
+|:-----------------|:-------------------------|
+| `create`         | Create a new goal        |
+| `show <id>`      | View goal with id `<id>` |
+| `search <query>` | Search for goals         |
 
 ### Command: `/project`
 
 | Action           | Description                          |
 |:-----------------|:-------------------------------------|
 | `status <id>`    | Get status of project with id `<id>` |
-| `search [query]` | Search for projects                  |
+| `show <id>`      | Alias for `status`                   |
+| `search <query>` | Search for projects                  |
 | `list`           | List projects                        |
 
 ## Misc. Actions
