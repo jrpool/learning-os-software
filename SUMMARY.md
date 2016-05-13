@@ -11,6 +11,7 @@
   - [Conventions](best-practices/conventions.md)
 - [Design Guide](design-guide/README.md)
 - [Auth, Authz, and SSO](identity-management/README.md)
+- [User Experiences](user-experiences/README.md)
 - [Appendix](appendix/README.md)
   - [How to Modify This Documentation](appendix/how-to-modify.md)
 - [Glossary](GLOSSARY.md)
