@@ -36,3 +36,7 @@
   - `/goal search <query>`
 - Search projects
   - `/project search <query>`
+
+## Flows
+
+_TBD_
