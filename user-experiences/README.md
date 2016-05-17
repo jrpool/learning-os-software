@@ -27,13 +27,13 @@ Compound actions are mostly used by Moderators.
 
 ### Command: `/cycle`
 
-| Action   | Description                                     |
-|:---------|:------------------------------------------------|
-| `status` | Get status of cycle                             |
-| `launch` | Form projects from votes (to begin cycle)       |
-| `retro`  | Begin retrospective                             |
-| `play`   | Allow cycle actions (voting, retrospectives)    |
-| `pause`  | Disallow cycle actions (voting, retrospectives) |
+| Action    | Description                                     |
+|:----------|:------------------------------------------------|
+| `status`  | Get status of cycle                             |
+| `launch`  | Form projects from votes (to begin cycle)       |
+| `reflect` | Begin retrospective                             |
+| `play`    | Allow cycle actions (voting, retrospectives)    |
+| `pause`   | Disallow cycle actions (voting, retrospectives) |
 
 ### Command: `/learner`
 
