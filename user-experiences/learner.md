@@ -41,10 +41,13 @@
 - Log retrospective reflection
   - `/log --r1 @beth:30 @amy:20 @jose:25 @tim:@15`
   - `/log --r4 Amy's wrote very clean code. She can improve by submitting more PRs more frequently so that the rest of her team can stay up-to-date with her progress.`
+- Check retrospective progress
+  - `/cycle status` (for chapter)
+  - `/cycle status --project` (for current project)
 
 ## Flows
 
-### Retrospective
+### Complete Retrospective Reflections
 
 At the end of a cycle, all Learners will log their reflections as a part of the retrospective process. Retrospectives occur at the end of a cycle. The Moderator will notify Learners to begin their retrospectives.
 
