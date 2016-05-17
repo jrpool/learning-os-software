@@ -58,4 +58,10 @@ The core accountability of Moderators is to oversee cycles. They are responsible
   - Displays information about the projects for the current cycle
 1. `/cycle status` : check status of current cycle
   - Running `/cycle status` displays information about the currently active cycle
-  - Overview of project statuses and % completion of retrospectives is displayed
+  - Overview of project statuses is displayed
+1. `/cycle retro` : move the cycle into `RETROSPECTIVE` state
+  - Notification sent to all project channels active in this cycle
+  - All Learners are instructed to begin their retrospectives
+    - See the "Complete Retrospective Reflections" flow in [learner.md](learner.md).
+1. `/cycle status` : check status of current cycle
+  - Overview of % completion of retrospectives is displayed
