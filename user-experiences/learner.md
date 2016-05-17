@@ -112,3 +112,27 @@ Questions are given in sequence until all reflections for a cycle have been subm
 @learner  > /log --r2 3
 @lg-bot   > Reflection updated!
 ```
+
+### Project Retrospective Status & Notifications
+
+There are two ways that teams can find out the status of their retrospective: pull and push.
+
+1. Pull: any Learner can run the `/cycle status --project` command to get information about the state of the current cycle for their project.
+1. Push: after a Learner completes their reflections for a retrospective, `@lg-bot` notifies the project channel.
+
+#### Status Example
+
+```
+@learner  > /cycle status --project
+@lg-bot   > The cycle for project #bee-23 is currently in *reflection* state.
+            2 / 5 retrospectives have been completed.
+```
+
+#### Notification Example
+
+After a Learner completes their reflections, this message is posted to the **project channel**:
+
+```
+@lg-bot   > One of your teammates has just submitted their reflections for this retrospective!
+            2 out of 5 teammates have now completed retrospectives.
+```
