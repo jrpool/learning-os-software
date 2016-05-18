@@ -1,0 +1,466 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Service-oriented Architecture | Learning OS Software</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../best-practices/index.html" />
+    
+    
+    <link rel="prev" href="../global-requirements/lean.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3.2"
+        data-chapter-title="Service-oriented Architecture"
+        data-filepath="global-requirements/soa.md"
+        data-basepath=".."
+        data-revision="Wed May 18 2016 10:50:44 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="architecture/index.html">
+            
+                
+                    <a href="../architecture/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Architecture
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="toolkit/index.html">
+            
+                
+                    <a href="../toolkit/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Toolkit
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="toolkit/shared-tools.html">
+            
+                
+                    <a href="../toolkit/shared-tools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Shared Tools
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="toolkit/standard-config.html">
+            
+                
+                    <a href="../toolkit/standard-config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Standard Configuration
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="global-requirements/index.html">
+            
+                
+                    <a href="../global-requirements/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Global Requirements
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="global-requirements/lean.html">
+            
+                
+                    <a href="../global-requirements/lean.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Lean Software Development
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="global-requirements/soa.html">
+            
+                
+                    <a href="../global-requirements/soa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Service-oriented Architecture
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="best-practices/index.html">
+            
+                
+                    <a href="../best-practices/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Best Practices
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="best-practices/conventions.html">
+            
+                
+                    <a href="../best-practices/conventions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Conventions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="design-guide/index.html">
+            
+                
+                    <a href="../design-guide/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Design Guide
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="identity-management/index.html">
+            
+                
+                    <a href="../identity-management/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Auth, Authz, and SSO
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="user-experiences/index.html">
+            
+                
+                    <a href="../user-experiences/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        User Experiences
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="appendix/index.html">
+            
+                
+                    <a href="../appendix/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Appendix
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="appendix/how-to-modify.html">
+            
+                
+                    <a href="../appendix/how-to-modify.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        How to Modify This Documentation
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="GLOSSARY.html">
+            
+                
+                    <a href="../GLOSSARY.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Glossary
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Learning OS Software</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="serviceoriented-architecture">Service-oriented Architecture</h1>
+<p>The Learners Guild software is comprised of a suite of <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">micro-services</a> that work in unison to deliver the all of the functionality needed by the overall system. This style of architecture is known as a <a href="https://en.wikipedia.org/wiki/Service-oriented_architecture" target="_blank">Service-orented Architecture (SOA)</a>. SOA makes it easier for software components on computers connected over a network to cooperate. Every computer can run any number of services, and each service is built in a way that ensures that the service can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program itself.</p>
+<p>SOA is fundamentally a network-powered extension of <a href="https://en.wikipedia.org/wiki/Modular_programming" target="_blank">Modular programming</a> and the <a href="https://en.wikipedia.org/wiki/Unix_philosophy" target="_blank">Unix philosophy</a>.</p>
+<p>Services fall within one of three <a href="#service-types">service types</a> and adhere to the specifications of their associated type.</p>
+<h2 id="why">Why?</h2>
+<p>But ... isn&apos;t it easier to just build one big monolithic application? Maybe, but <em>probably not</em>. There are several advantages that you gain by thinking in terms of services rather than one big application, including:</p>
+<h3 id="ease-of-rampup">Ease of Ramp-up</h3>
+<p>When a new developer starts, rather than having to digest the entire system, she can start with a single service and begin to get her bearings. In fact, for a large application with many services, it may be the case that certain developers only touch a subset of the services in the overall system.</p>
+<h3 id="fewer-merge-conflicts-and-continuous-deployment">Fewer Merge Conflicts and Continuous Deployment</h3>
+<p>Since all services communicate with each other via well-defined APIs, you can modify and redeploy one service without taking down the entire application. Furthermore, there&apos;s less contention among developers since codebases are smaller, with fewer dependencies.</p>
+<h3 id="avoids-nih-syndrome">Avoids &quot;NIH&quot; Syndrome</h3>
+<p>Does an existing piece of software (<a href="../GLOSSARY.html#open" class="glossary-term" title="Open information is information visible and accessible to everyone inside and outside of Learners Guild. Contrast with private and transparent.">open</a>-source, SaaS, or otherwise) already provide the capabilities we need? Great. Let&apos;s use it! In the worst case, we may just have to write a small API &quot;bridge&quot; to provide the interface we want.</p>
+<h3 id="ease-of-replacement">Ease of Replacement</h3>
+<p>If a service needs to be replaced for some reason (scalability, maintainability, etc.), as long as we provide a consistent API to the consumers of that service, <em>how</em> something is implementation is irrelevant. This allows for drop-in replacement without disturbing the rest of the system.</p>
+<h3 id="best-tool-for-the-job">Best Tool for the Job</h3>
+<p>In a typical monolithic web application, there&apos;s typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA-approach, each service is responsible for its own data and interfaces.</p>
+<h2 id="service-types">Service Types</h2>
+<p>The type of a service defines its purpose, appropriate scope for responsibilities, and how it interacts with other services.</p>
+<p>If our SOA were a rainforest, the service types would be Trees, Animals, and Soil.</p>
+<h3 id="core"><a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">Core</a></h3>
+<p><a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">Core</a> services manage internal data and business logic. They are networked and expose a secure web API.</p>
+<p><strong>Examples</strong></p>
+<ul>
+<li>Identity Management (IDM)</li>
+<li>Feedback</li>
+</ul>
+<h3 id="interface">Interface</h3>
+<p>Interface services provide a UI and front-end behavior (validations, basic UX) for interacting with one or more <a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">core</a> services. They range from command-line tools to full web or mobile apps.</p>
+<p><strong>Examples</strong></p>
+<ul>
+<li>Command-Line Task List</li>
+<li>Locus</li>
+</ul>
+<h3 id="adapter">Adapter</h3>
+<p>Adapter services provide a bridge between internal <a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">core</a> services or between <a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">core</a> services and third-party software. They are purpose-built to link data between two APIs and create a dependency buffer between them, thus insulating services against external changes.</p>
+<p><strong>Examples</strong></p>
+<ul>
+<li>Slack Integration for Pairing Service</li>
+<li>Data Sync between Survey Software and <a href="../GLOSSARY.html#core" class="glossary-term" title="The core is the central organizational body of Learners Guild. The core is responsible for all business and operational functions not explicitly under the domain of the chapters. The core is not explicitly geography-specific.">Core</a> Metrics Service</li>
+<li>Web Hook on GitHub to Capture Student Submissions and Update <a href="../GLOSSARY.html#challenge" class="glossary-term" title="A piece of curriculum that may be completed by a Learner designed to teach and give practice with one or more particular skills.">Challenge</a> Service</li>
+</ul>
+<!-- references -->
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../global-requirements/lean.html" class="navigation navigation-prev " aria-label="Previous page: Lean Software Development"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../best-practices/index.html" class="navigation navigation-next " aria-label="Next page: Best Practices"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/LearnersGuild/product-development/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/LearnersGuild/product-development"},"prism":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

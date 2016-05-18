@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Auth, Authz, and SSO | Learning OS Software</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../user-experiences/index.html" />
+    
+    
+    <link rel="prev" href="../design-guide/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="6"
+        data-chapter-title="Auth, Authz, and SSO"
+        data-filepath="identity-management/README.md"
+        data-basepath=".."
+        data-revision="Wed May 18 2016 10:50:44 GMT-0400 (EDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="architecture/index.html">
+            
+                
+                    <a href="../architecture/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Architecture
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="toolkit/index.html">
+            
+                
+                    <a href="../toolkit/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Toolkit
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="toolkit/shared-tools.html">
+            
+                
+                    <a href="../toolkit/shared-tools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Shared Tools
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="toolkit/standard-config.html">
+            
+                
+                    <a href="../toolkit/standard-config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Standard Configuration
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="global-requirements/index.html">
+            
+                
+                    <a href="../global-requirements/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Global Requirements
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="global-requirements/lean.html">
+            
+                
+                    <a href="../global-requirements/lean.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Lean Software Development
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="global-requirements/soa.html">
+            
+                
+                    <a href="../global-requirements/soa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Service-oriented Architecture
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="best-practices/index.html">
+            
+                
+                    <a href="../best-practices/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Best Practices
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="best-practices/conventions.html">
+            
+                
+                    <a href="../best-practices/conventions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Conventions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="design-guide/index.html">
+            
+                
+                    <a href="../design-guide/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Design Guide
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="6" data-path="identity-management/index.html">
+            
+                
+                    <a href="../identity-management/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Auth, Authz, and SSO
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="user-experiences/index.html">
+            
+                
+                    <a href="../user-experiences/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        User Experiences
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="appendix/index.html">
+            
+                
+                    <a href="../appendix/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Appendix
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="appendix/how-to-modify.html">
+            
+                
+                    <a href="../appendix/how-to-modify.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        How to Modify This Documentation
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="GLOSSARY.html">
+            
+                
+                    <a href="../GLOSSARY.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Glossary
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Learning OS Software</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="identity-management-authentication-authorization-and-singlesignon-sso">Identity Management: Authentication, Authorization, and Single-Sign-On (SSO)</h1>
+<h2 id="background">Background</h2>
+<p>Perhaps the biggest <a href="../GLOSSARY.html#challenge" class="glossary-term" title="A piece of curriculum that may be completed by a Learner designed to teach and give practice with one or more particular skills.">challenge</a> when developing a <a href="../global-requirements/soa.html">service-oriented architecture</a> is handling authentication (auth) and authorization (authz). In a monolithic app, this <a href="../GLOSSARY.html#challenge" class="glossary-term" title="A piece of curriculum that may be completed by a Learner designed to teach and give practice with one or more particular skills.">challenge</a> is severely reduced: create a users table, a roles table, and a capabilities table, and your &quot;Good to Go(TM)&quot;.</p>
+<p>However, in a SOA, we need a way to ensure that every service knows who is making requests, whether they are a valid <a href="../GLOSSARY.html#user" class="glossary-term" title="Any user on the system, regardless of which roles that user plays.">user</a>, what capabilities (i.e., permissions) they have, etc. Very &quot;public&quot; SOA-providers (e.g., Google, Facebook, GitHub) typically solve this by implementing an <a href="http://oauth.net/2/" target="_blank">OAuth2</a> provider. At the time of this writing, OAuth2 is the most robust way to provide a way for applications on the platform to authenticate and authorize various operations. However, there&apos;s a pretty large up-front cost to building-out an OAuth2 provider.</p>
+<p>We have <em>not</em> at this time implemented an OAuth2 provider.</p>
+<h2 id="a-simpler-alternative-json-web-tokens-jwt">A Simpler Alternative: JSON Web Tokens (JWT)</h2>
+<p>Enter JSON Web Tokens (JWT).</p>
+<p>JWTs are an <a href="../GLOSSARY.html#open" class="glossary-term" title="Open information is information visible and accessible to everyone inside and outside of Learners Guild. Contrast with private and transparent.">open</a>, industry-standard (<a href="https://tools.ietf.org/html/rfc7519" target="_blank">RFC7519</a>) method for representing claims securely between two parties.</p>
+<h3 id="how-jwts-work-at-learners-guild">How JWTs Work At Learners Guild</h3>
+<p>We have a centralized <a href="https://idm.learnersguild.org" target="_blank">Identity Management (IDM)</a> service. It is responsible for keeping track of all of the users in the system. It&apos;s also responsible for providing SSO functionality. <em>Besides having a basic understanding of how JWTs work</em>, all you need to know about the implementation of JWTs within the IDM service is that, when <em>signing</em> the JWT, IDM uses the <em><a href="../GLOSSARY.html#private" class="glossary-term" title="Private information is information which is not shared with all partners but is accessible only to a subset. Contrast with transparent and open.">private</a></em> key from a <a href="../GLOSSARY.html#private" class="glossary-term" title="Private information is information which is not shared with all partners but is accessible only to a subset. Contrast with transparent and open.">private</a> / public keypair. Any service that wishes to <em>verify</em> the token uses the <em>public</em> key.</p>
+<h4 id="the-jwt-cookie">The JWT Cookie</h4>
+<p>Upon successful authentication, and, in fact, during each request-response cycle, the IDM service will create or update a special cookie, named <strong><code>lgJWT</code></strong>, the value of which is the signed JWT. As a best-practice, this cookie is an HTTP-only, secure cookie, but any service within the <code>learnersguild.org</code> domain should be able to read it.</p>
+<h4 id="the-jwt-contents">The JWT Contents</h4>
+<p>All JWTs contain a series of &quot;claims&quot;. Two claims, in particular, are important when verifying a JWT: <code>iss</code> (issuer, in our case, <code>learnersguild.org</code>) and <code>exp</code> (expiration date). If you are implementing a service and want to validate a JWT provided in a request header (or the aforementioned cookie), you&apos;ll need to ensure that:</p>
+<ol>
+<li>The <code>iss</code> claim == <code>learnersguild.org</code>.</li>
+<li>The <code>exp</code> claim is a <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">Unix timestamp</a> in the future.</li>
+</ol>
+<p>If both of those things are true, you can get the rest of the <a href="../GLOSSARY.html#user" class="glossary-term" title="Any user on the system, regardless of which roles that user plays.">user</a> information from the JWT using (mostly) standard claims, plus a few extras:</p>
+<h5 id="standard-claims">Standard Claims</h5>
+<pre><code>iss: (issuer)
+iat: (issued at timestamp)
+exp: (token expiry timestamp)
+sub: (user UUID)
+name: (user name)
+preferred_username: (user handle)
+email: (user primary email)
+birthdate: (user date of birth)
+zoneinfo: (user timezone)
+phone_number: (user phone number)
+</code></pre><h5 id="additional-claims">Additional Claims</h5>
+<pre><code>emails: (all user email addresses)
+roles: (user roles)
+</code></pre><h3 id="limitations-of-jwt">Limitations of JWT</h3>
+<p>When compared to OAuth2, JWTs have one main limitation. In OAuth2, it&apos;s possible for the OAuth2 provider to disable individual applications and services by invalidating any tokens associated with those services. JWTs don&apos;t support this. The good news, however, is that JWTs can use public-key cryptography to get 80% of the way there. In practice, this means that, when using JWTs, if the provider wants to disable a particular service or application, a new <a href="../GLOSSARY.html#private" class="glossary-term" title="Private information is information which is not shared with all partners but is accessible only to a subset. Contrast with transparent and open.">private</a> / public keypair needs to be generated. Then, the new <em>public</em> key can be shared with any services that should continue to be enabled. While this would be incredibly inconvenient for an ecosystem with hundreds or thousands of applications, it is perfectly sufficient for early Learners Guild development. Furthermore, there&apos;s nothing to stop us from implementing an OAuth2 provider in the future, and in fact, we may do so.</p>
+<h3 id="example-implementation">Example implementation</h3>
+<p>The <a href="https://github.com/LearnersGuild/idm-jwt-auth" target="_blank">idm-jwt-auth</a> npm module can be used for services built using Node.js to handle all of the behind-the-scenes stuff necessary for SSO via IDM. For services built on other frameworks and platforms, it should provide a reasonable reference for how to work with the tokens.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../design-guide/index.html" class="navigation navigation-prev " aria-label="Previous page: Design Guide"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../user-experiences/index.html" class="navigation navigation-next " aria-label="Next page: User Experiences"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"edit-link":{"base":"https://github.com/LearnersGuild/product-development/tree/master","label":"Edit This Page"},"github":{"url":"https://github.com/LearnersGuild/product-development"},"prism":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

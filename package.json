@@ -1,0 +1,26 @@
+{
+  "name": "learning-os-software",
+  "version": "0.2.0",
+  "description": "Learning OS Software",
+  "scripts": {
+    "book:clean": "rimraf _book",
+    "book:prepare": "gitbook install",
+    "book:build": "npm run book:prepare && gitbook build",
+    "book:watch": "npm run book:prepare && gitbook serve",
+    "book:publish": "npm run book:clean && npm run book:build && cd _book && git init && git commit --allow-empty -m 'deploy to GitHub gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'deploy to GitHub gh-pages' && git push git@github.com:LearnersGuild/learning-os-software gh-pages --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnersGuild/learning-os-software.git"
+  },
+  "author": "Jeffrey Wescott <jeffrey@learnersguild.org>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LearnersGuild/learning-os-software/issues"
+  },
+  "homepage": "https://github.com/LearnersGuild/learning-os-software#readme",
+  "devDependencies": {
+    "gitbook-cli": "^1.0.0",
+    "rimraf": "^2.4.3"
+  }
+}
