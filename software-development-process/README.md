@@ -23,3 +23,5 @@ The lifecycle of an issue on the board looks something like this:
 The lifecycle of pull request on the board looks something like this:
 
 ![PR Workflow](../images/pr-workflow.png)
+
+<!-- These images can be edited here: https://docs.google.com/a/learnersguild.org/presentation/d/1P2jYADEsBalKP0i5A2zLiw-zyC8gv1iwXIcyudL9WpU/edit?usp=sharing -->
