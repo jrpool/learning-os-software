@@ -4,6 +4,7 @@
 - [Toolkit](toolkit/README.md)
   - [Shared Tools](toolkit/shared-tools.md)
   - [Standard Configuration](toolkit/standard-config.md)
+- [Software Development Process](software-development-process/README.md)
 - [Global Requirements](global-requirements/README.md)
   - [Lean Software Development](global-requirements/lean.md)
   - [Service-oriented Architecture](global-requirements/soa.md)
