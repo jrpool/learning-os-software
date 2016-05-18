@@ -5,7 +5,7 @@ All content is in [GitHub Flavored Markdown][gfm]. Make sure you understand that
 Then, clone this repository:
 
 ```bash
-$ git clone git@github.com/LearnersGuild/learning-os-software && cd learning-os-software
+$ git clone git@github.com:LearnersGuild/learning-os-software.git && cd learning-os-software
 ```
 
 Install project dependencies using [npm][npm]:
@@ -35,5 +35,5 @@ $ npm run
 <!-- references -->
 
 [gfm]:https://help.github.com/articles/github-flavored-markdown/
-[gitbook-help]:http://help.gitbook.com/format/index.html
+[gitbook-help]:https://help.gitbook.com/
 [npm]:https://docs.npmjs.com/

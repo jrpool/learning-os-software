@@ -4,9 +4,11 @@ The shared development tools and environments available to all software develope
 
 ## Source and Version Control
 
-We use [git][git] for version control.
+We use [git][git] and [GitHub][github] for version control.
 
-We use [GitHub][github] as a repository store for all services, to track issues, and to coordinate development.
+## Issue Tracking
+
+We [ZenHub][zenhub] (which integrates with GitHubs issues and PRs) to track issues, and to coordinate development.
 
 ## Local Domain to Port Mapping
 
@@ -36,3 +38,4 @@ An early proof-of-concept for our remote pairing tool exists. It is based on [Fl
 [cloud-collab]:https://github.com/LearnersGuild/cloud-collab-docker
 [plop]:https://github.com/amwmedia/plop
 [mehserve]:https://github.com/timecounts/mehserve
+[zenhub]:https://www.zenhub.io/
