@@ -55,7 +55,7 @@ The retrospective process is essentially a set of questions and answers/reflecti
 
 Questions are given in sequence until all reflections for a cycle have been submitted.
 
-1. When Moderator runs `/cycle reflect`, Learners will receive a notification to begin the retrospective in their current project channel.
+1. When Moderator runs `/cycle retro`, Learners will receive a notification to begin the retrospective in their current project channel.
   - Message from `@lg-bot`: "Time to begin the retrospective! Run `/log --retro` in your `#log` channel to start.
 1. `/log --retro` (in `#log` channel) : begin retrospective process
   - `@lg-bot` responds with welcome message and instructions.
