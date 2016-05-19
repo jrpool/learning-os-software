@@ -75,42 +75,67 @@ Questions are given in sequence until all reflections for a cycle have been subm
 
 ```
 @learner  > /log --retro
-@lg-bot   > Welcome to the retrospective!
+@lg-bot   > You have logged 0/12 of your reflections for this retrospective.
+            Run `/log --retro` at any time to check your progress.
 
-            You have 12 reflections to make. You are 0% of the way through.
-            Run `/log --retro` at any time to check your progress or edit your reflections.
+            To log a reflection, pick a question using the command:
+            `/log --r<integer from 1-12>`
 
-            Here's your first reflection...
+            For example:
+            `/log --r3` => show question 3 (of 12)
+
+            Then follow the instructions specified in the question to answer.
+@learner  > /log --r1
 @lg-bot   > *r1*: Rate the relative contributions of your teammates (including yourself).
-            Use the command `/log --r1 <teammate>:<%contribution> [<teammate>:<%contribution>...]`
-            For example,
+
+            Use the command:
+            `/log --r1 <teammate>:<%contribution> [<teammate>:<%contribution>...]`
+
+            For example:
             `/log --r1 beth:30 amy:20 jose:25 tim:@15`
 @learner  > /log --r1 bob:20 notaplayer:80
 @lg-bot   > Whoops! Looks like you have a typo.
             `@notaplayer` wasn't on your team.
 
-            Your team was: ali ben cara dwight @learner
+            Your team was: ali ben cara dwight learner
 @learner  > /log --r1 ali:15 ben:15 cara:40 dwight:10 learner:20
-@lg-bot   > Thanks! Here's your next reflection...
+@lg-bot   > Thanks! Reflection logged. You're 8.3% of the way through the retrospective.
+@learner  > /log --r2
 @lg-bot   > *r2*: Rate your agreement with the following statement:
-            "The project was relevant to my learning."
+
+            > The project was relevant to my learning.
+
+            Options:
             - 1 (strongly disagree)
             - 4 (neutral)
             - 7 (strongly agree)
             - 0 (not enough information)
 
-            Use the command `/log --r2 <number from 0-7>`
-            For example,
+            Use the command:
+            `/log --r2 <integer from 0-7>`
+
+            For example:
             `/log --r2 4`
 @learner  > /log --r2 5
-@lg-bot   > Thanks! Here's your next reflection...
+@lg-bot   > Thanks! Reflection logged. You're 16.7% of the way through the retrospective.
+@learner  > /log --retro
+@lg-bot   > You have logged 2/12 of your reflections for this retrospective.
+            Run `/log --retro` at any time to check your progress.
+
+            To log a reflection, pick a question using the command:
+            `/log --r<integer from 1-12>`
+
+            For example:
+            `/log --r3` => show question 3 (of 12)
+
+            Then follow the instructions specified in the question to answer.
 
 [ 10 more questions + reflections... ]
 
 @lg-bot   > Nice work. You've completed 100% of the reflections.
-            To edit any of your reflections, just submit it again before the end of the cycle.
+            To edit any of your reflections, just log it again before the end of the cycle.
 @learner  > /log --r2 3
-@lg-bot   > Reflection updated!
+@lg-bot   > Reflection for retrospective question 2 updated!
 ```
 
 ### Project Retrospective Status & Notifications
