@@ -125,7 +125,7 @@ There are two ways that teams can find out the status of their retrospective: pu
 ```
 @learner  > /cycle status --project
 @lg-bot   > The cycle for project #bee-23 is currently in *reflection* state.
-            2 / 5 retrospectives have been completed.
+            2 / 5 retrospectives have been completed for this project.
 ```
 
 #### Notification Example
@@ -134,5 +134,5 @@ After a Learner completes their reflections, this message is posted to the **pro
 
 ```
 @lg-bot   > One of your teammates has just submitted their reflections for this retrospective!
-            2 out of 5 teammates have now completed retrospectives.
+            2 / 5 retrospectives have been completed for this project.
 ```
