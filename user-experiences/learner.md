@@ -51,25 +51,35 @@
 
 At the end of a cycle, all Learners will log their reflections as a part of the retrospective process. Retrospectives occur at the end of a cycle. The Moderator will notify Learners to begin their retrospectives.
 
-The retrospective process is essentially a set of questions and answers/reflections. The Q&A takes place in a `#log` private channel, so all responses are private. The same command (`/log`) is used for all answers.
+The retrospective is a set of questions to which Learners must respond. Learners use the `/log` command to view questions and submit answers/reflections. They can respond by logging their reflections in any channel, as the `/log` command is private to the learner.
 
-Questions are given in sequence until all reflections for a cycle have been submitted.
+Most Learners will likely want to use a private group or a DM channel (perhaps with the `@lg-bot`) for issuing `/log` commands, so that they can keep this history separate from other channel histories.
+
+Learners can log their reflections in any order, but they questions are numbered in a sequential order to influence reflection order.
+
+Learners must submit reflections for every question in the retrospective in order for their retrospective to be considered "complete".
 
 1. When Moderator runs `/cycle retro`, Learners will receive a notification to begin the retrospective in their current project channel.
-  - Message from `@lg-bot`: "Time to begin the retrospective! Run `/log --retro` in your `#log` channel to start.
-1. `/log --retro` (in `#log` channel) : begin retrospective process
+  - Message from `@lg-bot`: "Time to begin the retrospective! Run `/log --retro` to start."
+1. `/log --retro` : begin retrospective process
   - `@lg-bot` responds with welcome message and instructions.
-  - `@lg-bot` shows first reflection question (`r1`) along with instructions for how to answer.
-1. Repeat until all reflections are complete...
-  - `/log --r<question number> [arguments]` : Learner logs reflection for current question
-    - Syntax varies based on question
+1. Repeat...
+  - `/log --r<n>` : Show question number `<n>`
+    - `@lg-bot` responds with question and instructions for logging reflection.
+  - `/log --r<n> [arguments]` : Log reflection for question number `<n>`
+    - Syntax for `[arguments]` varies based on question
   - If reflection is valid and complete...
     - `@lg-bot` responds with a confirmation and "thank you" message.
-    - `@lg-bot` shows next reflection question along with instructions for how to answer.
   - Else...
     - `@lg-bot` responds with a helpful error message.
-1. `@lg-bot` notifies Learner of completion.
-  - Includes instructions for how to edit any submissions.
+1. `/log --retro` : check retrospective status
+  - If all questions are complete...
+    - `@lg-bot` notifies Learner of completion.
+    - Includes instructions for how to edit any submissions.
+  - Else...
+    - `@lg-bot` informs Learner of progress on Retrospective.
+1. When Learner has completed their retrospectives...
+  - Notification is sent to project channel (see Project Retrospective Status & Notifications below)
 
 #### Example
 
@@ -132,7 +142,9 @@ Questions are given in sequence until all reflections for a cycle have been subm
 
 [ 10 more questions + reflections... ]
 
-@lg-bot   > Nice work. You've completed 100% of the reflections.
+@learner  > /log --retro
+@lg-bot   > Nice work! You've completed 100% of the reflections.
+
             To edit any of your reflections, just log it again before the end of the cycle.
 @learner  > /log --r2 3
 @lg-bot   > Reflection for retrospective question 2 updated!
