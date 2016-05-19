@@ -39,7 +39,7 @@
 - Begin retrospective
   - `/log --retro`
 - Log retrospective reflection
-  - `/log --r1 @beth:30 @amy:20 @jose:25 @tim:@15`
+  - `/log --r1 beth:30 amy:20 jose:25 tim:@15`
   - `/log --r4 Amy's wrote very clean code. She can improve by submitting more PRs more frequently so that the rest of her team can stay up-to-date with her progress.`
 - Check retrospective progress
   - `/cycle status` (for chapter)
@@ -84,13 +84,13 @@ Questions are given in sequence until all reflections for a cycle have been subm
 @lg-bot   > *r1*: Rate the relative contributions of your teammates (including yourself).
             Use the command `/log --r1 <teammate>:<%contribution> [<teammate>:<%contribution>...]`
             For example,
-            `/log --r1 @beth:30 @amy:20 @jose:25 @tim:@15`
-@learner  > /log --r1 @bob:20 @notaplayer:80
+            `/log --r1 beth:30 amy:20 jose:25 tim:@15`
+@learner  > /log --r1 bob:20 notaplayer:80
 @lg-bot   > Whoops! Looks like you have a typo.
             `@notaplayer` wasn't on your team.
 
-            Your team was: @ali @ben @cara @dwight @learner
-@learner  > /log --r1 @ali:15 @ben:15 @cara:40 @dwight:10 @learner:20
+            Your team was: ali ben cara dwight @learner
+@learner  > /log --r1 ali:15 ben:15 cara:40 dwight:10 learner:20
 @lg-bot   > Thanks! Here's your next reflection...
 @lg-bot   > *r2*: Rate your agreement with the following statement:
             "The project was relevant to my learning."
