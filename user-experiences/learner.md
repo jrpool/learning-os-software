@@ -102,7 +102,7 @@ Learners must submit reflections for every question in the retrospective in orde
             `/log --r1 <teammate>:<%contribution> [<teammate>:<%contribution>...]`
 
             For example:
-            `/log --r1 beth:30 amy:20 jose:25 tim:@15`
+            `/log --r1 beth:30 amy:20 jose:25 tim:15`
 @learner  > /log --r1 bob:20 notaplayer:80
 @lg-bot   > Whoops! Looks like you have a typo.
             `@notaplayer` wasn't on your team.
