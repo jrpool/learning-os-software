@@ -37,7 +37,7 @@
 - Search projects
   - `/project search <query>`
 - Begin retrospective
-  - `/log --retro`
+  - `/log retro`
 - Log retrospective reflection
   - `/log --r1 beth:30 amy:20 jose:25 tim:@15`
   - `/log --r4 Amy's wrote very clean code. She can improve by submitting more PRs more frequently so that the rest of her team can stay up-to-date with her progress.`
@@ -60,8 +60,8 @@ Learners can log their reflections in any order, but they questions are numbered
 Learners must submit reflections for every question in the retrospective in order for their retrospective to be considered "complete".
 
 1. When Moderator runs `/cycle retro`, Learners will receive a notification to begin the retrospective in their current project channel.
-  - Message from `@lg-bot`: "Time to begin the retrospective! Run `/log --retro` to start."
-1. `/log --retro` : begin retrospective process
+  - Message from `@lg-bot`: "Time to begin the retrospective! Run `/log retro` to start."
+1. `/log retro` : begin retrospective process
   - `@lg-bot` responds with welcome message and instructions.
 1. Repeat...
   - `/log --r<n>` : Show question number `<n>`
@@ -72,7 +72,7 @@ Learners must submit reflections for every question in the retrospective in orde
     - `@lg-bot` responds with a confirmation and "thank you" message.
   - Else...
     - `@lg-bot` responds with a helpful error message.
-1. `/log --retro` : check retrospective status
+1. `/log retro` : check retrospective status
   - If all questions are complete...
     - `@lg-bot` notifies Learner of completion.
     - Includes instructions for how to edit any submissions.
@@ -84,9 +84,9 @@ Learners must submit reflections for every question in the retrospective in orde
 #### Example
 
 ```
-@learner  > /log --retro
+@learner  > /log retro
 @lg-bot   > You have logged 0/12 of your reflections for this retrospective.
-            Run `/log --retro` at any time to check your progress.
+            Run `/log retro` at any time to check your progress.
 
             To log a reflection, pick a question using the command:
             `/log --r<integer from 1-12>`
@@ -128,9 +128,9 @@ Learners must submit reflections for every question in the retrospective in orde
             `/log --r2 4`
 @learner  > /log --r2 5
 @lg-bot   > Thanks! Reflection logged. You're 16.7% of the way through the retrospective.
-@learner  > /log --retro
+@learner  > /log retro
 @lg-bot   > You have logged 2/12 of your reflections for this retrospective.
-            Run `/log --retro` at any time to check your progress.
+            Run `/log retro` at any time to check your progress.
 
             To log a reflection, pick a question using the command:
             `/log --r<integer from 1-12>`
@@ -142,7 +142,7 @@ Learners must submit reflections for every question in the retrospective in orde
 
 [ 10 more questions + reflections... ]
 
-@learner  > /log --retro
+@learner  > /log retro
 @lg-bot   > Nice work! You've completed 100% of the reflections.
 
             To edit any of your reflections, just log it again before the end of the cycle.
