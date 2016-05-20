@@ -31,6 +31,7 @@ Compound actions are mostly used by Moderators.
 |:---------|:------------------------------------------------|
 | `status` | Get status of cycle                             |
 | `launch` | Form projects from votes (to begin cycle)       |
+| `retro`  | Begin retrospective                             |
 | `play`   | Allow cycle actions (voting, retrospectives)    |
 | `pause`  | Disallow cycle actions (voting, retrospectives) |
 
