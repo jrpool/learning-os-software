@@ -72,14 +72,14 @@ When a context is important for actions that mutate game state, the action _shou
 
 Every action _must_ respond with a "success" or "error" message or notification. As a user, I cannot verify that my command was received unless I see feedback.
 
-**Good**:
+**Good:**
 
 ```
 > /vote 2 3
 > Thanks for voting!
 ```
 
-**Bad**:
+**Bad:**
 
 ```
 > /vote 2 3   => (no response or change to UI)
@@ -91,7 +91,7 @@ When passed the option `--help` or `-h`, every command _must_ respond with a hel
 
 The help message _should_ include a brief description, a list of possible arguments/options, and at least one usage example.
 
-**Good**:
+**Good:**
 
 ```
 > /vote -h
@@ -112,7 +112,7 @@ The help message _should_ include a brief description, a list of possible argume
 >   /vote 6 6     // vote for goal 6 twice
 ```
 
-**Bad**:
+**Bad:**
 
 ```
 > /vote -h
