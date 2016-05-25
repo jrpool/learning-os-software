@@ -119,6 +119,45 @@ The help message _should_ include a brief description, a list of possible argume
 > Vote command. Vote on goals.
 ```
 
+### Respond to invalid commands with a gentle, helpful prompt
+
+Invalid commands and commands that throw an error should respond with a message informing the issuer of:
+
+- The error/validation type
+- A friendly message describing the reason for the error and/or providing instructions to rectify the error
+- Directions towards the canonical documentation or help information for the command
+
+**Examples:**
+
+With too few arguments:
+```
+> /vote 2
+> Invalid command: not enough votes
+  You must have forgotten to enter your second choice!
+
+  Use `/vote -h` to read the docs.
+```
+
+With too many arguments:
+```
+> /vote 2 3 4
+> Invalid command: too many votes
+  Whoa there! Just 2 votes please.
+
+  Use `/vote -h` to read the docs.
+```
+
+With invalid goals:
+```
+> /vote 2 -21
+> Error: goal not found
+  We weren't able to find a goal with id `-21`. Make sure to enter the goal id from the goal library _exactly_, without any extra characters.
+
+  Use `/vote -h` to read the docs.
+```
+
+**Reason:** learning correct syntax for commands is not always easy. To help users issue correct, valid commands it is important to gently and helpfully inform them when they are wrong.
+
 ## References
 
 - http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
