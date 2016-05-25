@@ -85,6 +85,34 @@ Every action _must_ respond with a "success" or "error" message or notification.
 > /vote 2 3   => (no response or change to UI)
 ```
 
+### Avoid mode-based commands
+
+Commands should always take the same action, regardless of the program state/mode in which they are issued.
+
+**Bad:**
+
+The same command produces a different result in different channels.
+
+In `#general` channel:
+
+```
+> /cycle status
+  # => show message about the current state of the cycle for the whole chapter
+> /cycle status #hungry-hippo-23
+  # => show cycle information specific to the project #hungry-hippo-23
+```
+
+In project channel (e.g. `#hungry-hippo-23`):
+
+```
+> /cycle status
+  # => show cycle information specific to the project #hungry-hippo-23
+> /cycle status #hungry-hippo-23
+  # => show cycle information specific to the project #hungry-hippo-23 (same as above)
+```
+
+**Reason:** mode-based commands mean that users have to consider an environmental factor before issuing a command, which adds an extra cognitive cycle. If the expectation is that all commands will behave the same regardless of mode, state, or other environmental factor, then users can omit this consideration and focus instead on the arguments and options passed to a command as the sole way to alter behavior.
+
 ### Provide a help message
 
 When passed the option `--help` or `-h`, every command _must_ respond with a helpful message about the command.
