@@ -13,7 +13,7 @@ Our interface and experience design is bounded by this set of design constraints
 - All game-relevant data can be expressed in text format, including learner, team, project, and cycle state and attributes.
 - In textual interfaces, we use noun-verb dialogues when many operations are needed for a single object, and verb-noun dialogues when multiple objects need a similar operation performed.
 
-For more detailed specifications on text-based commands, read [commands.md](commands.md).
+Read more detailed design specifications for [Command Interfaces](command-interfaces.md) and [Graphical Interfaces](graphical-interfaces.md).
 
 ## References
 

@@ -1,4 +1,4 @@
-# Design Specifications for Commands
+# Design Specifications for Command Interfaces
 
 _Note: language here conforms to [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) standards._
 
