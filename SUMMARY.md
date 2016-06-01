@@ -11,6 +11,7 @@
 - [Best Practices](best-practices/README.md)
   - [Conventions](best-practices/conventions.md)
 - [Design Guide](design-guide/README.md)
+  - [Specifications for Commands](design-guide/commands.md)
 - [Auth, Authz, and SSO](identity-management/README.md)
 - [User Experiences](user-experiences/README.md)
   - [Learner UX](user-experiences/learner.md)
