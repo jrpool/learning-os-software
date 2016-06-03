@@ -12,12 +12,7 @@ Common actions are used frequently and take the form of `> /action [options]`.
 
 Common actions are mostly used by Learners.
 
-| Command    | Description                                    |
-|:-----------|:-----------------------------------------------|
-| `/vote`    | Vote on goals                                  |
-| `/request` | Submit a help or feedback request              |
-| `/offer`   | Offer help or feedback                         |
-| `/log`     | Log feedback, retrospectives, and other events |
+For the available actions, review the [list of commands in game-cli](https://github.com/LearnersGuild/game-cli/tree/master/config/commands).
 
 ## Compound Actions
 
@@ -25,44 +20,4 @@ Compound actions take the form of `> /object action [options]`. The object provi
 
 Compound actions are mostly used by Moderators.
 
-### Command: `/cycle`
-
-| Action   | Description                                     |
-|:---------|:------------------------------------------------|
-| `status` | Get status of cycle                             |
-| `launch` | Form projects from votes (to begin cycle)       |
-| `retro`  | Begin retrospective                             |
-| `play`   | Allow cycle actions (voting, retrospectives)    |
-| `pause`  | Disallow cycle actions (voting, retrospectives) |
-
-### Command: `/learner`
-
-| Action            | Description                                                  |
-|:------------------|:-------------------------------------------------------------|
-| `play <@handle>`  | Activate learner with handle `<@handle>`                     |
-| `pause <@handle>` | Deactivate learner with handle `<@handle>` for current cycle |
-
-### Command: `/goal`
-
-| Action           | Description              |
-|:-----------------|:-------------------------|
-| `create`         | Create a new goal        |
-| `show <id>`      | View goal with id `<id>` |
-| `search <query>` | Search for goals         |
-
-### Command: `/project`
-
-| Action           | Description                          |
-|:-----------------|:-------------------------------------|
-| `status <id>`    | Get status of project with id `<id>` |
-| `show <id>`      | Alias for `status`                   |
-| `search <query>` | Search for projects                  |
-| `list`           | List projects                        |
-
-## Misc. Actions
-
-Miscellaneous actions are infrequently used, and generally not part of core gameplay.
-
-| Command    | Description            |
-|:-----------|:-----------------------|
-| `/profile` | Edit your user profile |
+For the available actions, review the [list of commands in game-cli](https://github.com/LearnersGuild/game-cli/tree/master/config/commands).
