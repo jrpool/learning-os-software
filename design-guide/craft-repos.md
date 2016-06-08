@@ -16,7 +16,7 @@ Craft repositories _should_ use the following structure.
 
 ```shell
 <repo-name>/
-├── .github                 
+├── .github
 │   └── ISSUE_TEMPLATE.md   # Template for writing goals
 ├── CONTRIBUTING.md         # Instructions for contributing and goal writing
 ├── README.md               # Self-explanatory
