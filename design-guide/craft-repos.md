@@ -40,6 +40,19 @@ Labels are used to add metadata to goals that is consumed by our software to inf
 
 Because labels are also user-facing, they _must_ have human readable and intelligible names.
 
+The number of labels may grow, so labels of a similar type _should_ be given similar colors.
+
+### Label Types
+
+#### Project/Team Size
+
+The following labels denote recommended team size for a goal and _should_ all be given a **blue** color:
+
+- `team-size-2`
+- `team-size-3`
+- `team-size-4`
+- `team-size-5`
+
 ## Milestones
 
 Milestones are used to demarcate broad, exclusive categorizations for goals.
