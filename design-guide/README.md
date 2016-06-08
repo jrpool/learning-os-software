@@ -15,6 +15,8 @@ Our interface and experience design is bounded by this set of design constraints
 
 Read more detailed design specifications for [Command Interfaces](command-interfaces.md) and [Graphical Interfaces](graphical-interfaces.md).
 
+For information on the structure and purpose of craft repositories, read [craft-repos.md](craft-repos.md).
+
 ## References
 
 - http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
