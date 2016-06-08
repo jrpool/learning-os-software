@@ -12,12 +12,20 @@ _Note: language here conforms to [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt
 
 ## File Structure
 
-```
+Craft repositories _should_ use the following structure.
+
+```shell
 <repo-name>/
-├── .github
-│   └── ISSUE_TEMPLATE.md
-├── CONTRIBUTING.md
-└── README.md
+├── .github                 
+│   └── ISSUE_TEMPLATE.md   # Template for writing goals
+├── CONTRIBUTING.md         # Instructions for contributing and goal writing
+├── README.md               # Self-explanatory
+├── guides                  # Guides and helpful wisdom
+│   ├── TEMPLATE.md         # Template file for writing guides
+│   └── ...
+└── library                 # Resource library (articles, videos, etc.)
+    ├── TEMPLATE.md         # Template file for adding resources
+    └── ...
 ```
 
 ## Issues
