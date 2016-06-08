@@ -1,14 +1,14 @@
 # Craft Repositories
 
-Craft repositories are owned by the [GuildCrafts](https://github.com/GuildCrafts/) organization and are named after the craft that they focus on.
+Craft repositories are owned by the [GuildCrafts][guildcrafts-org] organization and are named after the craft that they focus on.
 
-For example, the craft of "Web Development with JavaScript" is stored in the craft repo [web-development-js](https://github.com/GuildCrafts/web-development-js).
+For example, the craft of "Web Development with JavaScript" is stored in the craft repo [web-development-js][web-dev-js-repo].
 
 Each craft repository should follow a consistent file structure and repo metadata (issues, labels, milestones, etc.) patterns.
 
 This document is a guide for setting up and managing craft repositories.
 
-_Note: language here conforms to [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) standards._
+_Note: language here conforms to [RFC 2119][rfc-2119] standards._
 
 ## File Structure
 
@@ -40,7 +40,7 @@ Pull requests are used to update the content of a craft repository. Any active l
 
 Only learners with proper privileges (for now, professional players) can accept/merge pull requests.
 
-All changes to the files in craft repositories _must_ be made via pull requests, in line with [GitHub flow](https://guides.github.com/introduction/flow/).
+All changes to the files in craft repositories _must_ be made via pull requests, in line with [GitHub flow][gh-flow-guide].
 
 ## Labels
 
@@ -64,3 +64,8 @@ The following labels denote recommended team size for a goal and _should_ all be
 ## Milestones
 
 Milestones are used to demarcate broad, exclusive categorizations for goals.
+
+[gh-flow-guide]: https://guides.github.com/introduction/flow/
+[guildcrafts-org]: https://github.com/GuildCrafts/
+[web-dev-js-repo]: https://github.com/GuildCrafts/web-development-js
+[rfc-2119]: https://www.ietf.org/rfc/rfc2119.txt
