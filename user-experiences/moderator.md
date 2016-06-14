@@ -4,14 +4,14 @@
 
 **Happy path:**
 
-- Check status of voting
+- Check status of current cycle
   - `/cycle status`
-- Launch cycle (form projects)
+- Form projects from voting
   - `/cycle launch`
 - View formed projects
   - `/project list`
-- Check status of current cycle (show retrospective data)
-  - `/cycle status`
+- Start reflection stage
+  - `/cycle reflect`
 
 **Manual override:**
 
@@ -59,7 +59,7 @@ The core accountability of Moderators is to oversee cycles. They are responsible
 1. `/cycle status` : check status of current cycle
   - Running `/cycle status` displays information about the currently active cycle
   - Overview of project statuses is displayed
-1. `/cycle retro` : move the cycle into `RETROSPECTIVE` state
+1. `/cycle reflect` : move the cycle into `REFLECTION` state
   - Notification sent to all project channels active in this cycle
   - All Learners are instructed to begin their retrospectives
     - See the "Complete Retrospective Reflections" flow in [learner.md](learner.md).
