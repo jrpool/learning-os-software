@@ -160,7 +160,67 @@ Learners must submit reflections for every question in the retrospective in orde
 
 ### Project Reviews
 
+During the `REFLECTION` stage of a cycle, learners review projects using the `/review` command.
 
+Learners review their own projects as well as any other projects worked on during the cycle.
+
+Project reviews happen at the end of a cycle, after retrospectives. Retrospectives == process analysis; reviews == product analysis. This distinction is important b/c retrospectives are always intra-team, whereas project reviews can be both intra- and inter-team.
+
+At the start of a project, the team decides on which specifications it wants to include (i.e. define the scope of features) and a rubric for assessing output quality (e.g. code readability, OOP paradigm consistency, etc.).
+
+During project review, reviewers use the set of specs to evaluate completeness and the quality rubric to evaluate quality. Both scores are `1..100` inclusive.
+
+1. When Moderator runs `/cycle reflect`, Learners will receive a notification to begin reviewing projects.
+1. `/project list --in-review` : Show projects for review
+  - `@echo` responds with list of projects
+1. Repeat...
+  - `/review #project-id` : Show review status for project `#project-id`
+    - `@echo` responds with number of reviews, and link to project artifact
+  - `/review #project-id --completeness 89 --quality 72` : Review project with completeness and quality score
+  - If review is valid and complete...
+    - `@echo` responds with a confirmation and "thank you" message.
+  - Else...
+    - `@echo` responds with a helpful error message.
+
+### Example
+
+First, moderator kicks off reflection stage (for retrospectives and reviews):
+
+```
+@moderator  > /cycle reflect
+@echo       > Cycle is now in `REFLECTION` stage.
+```
+
+Then learners are notified that they can review projects:
+
+```
+@echo     > The cycle has moved from Practice to Reflection.
+            Time to start your retrospectives and project reviews.
+
+            Run `/log --retro` to see your retrospective questions.
+            Run `/project list --in-review` for a list of projects.
+@learner  > /project list --in-review
+@echo     > Current
+            - #proj-1     : 2 reviews
+            - #proj-2     : 4 reviews
+            - #project-id : 1 review
+
+@learner  > /review #project-id
+@echo     > Project #project-id has been reviewed 1 time.
+
+            To review this project, analyze their artifact:
+            > http://link.to.artifact/
+
+            Use the rubric provided to calculate and submit a `--completeness` and `--quality` score.
+@learner  > /review #project-id --completeness 89
+@echo     > Invalid command: missing quality score
+            When reviewing a project, you need to provide a quality score.
+
+            Use `/review -h` to read the docs.
+@learner  > /review #project-id --completeness 89 --quality 72
+@echo     > Review captured! Thank you for your input.
+            4 points have been added to your mentorship score.
+```
 
 ### Project Retrospective Status & Notifications
 
