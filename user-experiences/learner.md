@@ -2,29 +2,12 @@
 
 ## Stories
 
+**Basics for v0**
+
 - Create goals
   - `/goal create`
 - Vote on goals
   - `/vote <id> <id>`
-- Request help
-  - `/request -h`
-- Request feedback
-  - `/request -f`
-- View help requests
-  - Go to `#help` channel, review posts
-- View feedback requests
-  - Go to `#feedback` channel, review posts
-- Offer help
-  - `/offer -h`
-  - `/offer -h @handle`
-  - `/offer -h #project-id`
-- Offer feedback
-  - `/offer -f`
-  - `/offer -f @handle`
-  - `/offer -f #project-id`
-- Check status of learners
-  - `/learner status`
-  - `/learner status @handle`
 - Check status of projects
   - `/project status #project-id`
 - Check status of cycles
@@ -45,6 +28,28 @@
 - Check retrospective progress
   - `/cycle status` (for chapter)
   - `/cycle status --project` (for current project)
+
+**Possible future stories**
+
+- Request help
+  - `/request -h`
+- Request feedback
+  - `/request -f`
+- View help requests
+  - Go to `#help` channel, review posts
+- View feedback requests
+  - Go to `#feedback` channel, review posts
+- Offer help
+  - `/offer -h`
+  - `/offer -h @handle`
+  - `/offer -h #project-id`
+- Offer feedback
+  - `/offer -f`
+  - `/offer -f @handle`
+  - `/offer -f #project-id`
+- Check status of learners
+  - `/learner status`
+  - `/learner status @handle`
 
 ## Flows
 
@@ -150,6 +155,10 @@ Learners must submit reflections for every question in the retrospective in orde
 @learner  > /log -r -q2 3
 @echo     > Reflection for retrospective question 2 updated!
 ```
+
+### Project Reviews
+
+
 
 ### Project Retrospective Status & Notifications
 
