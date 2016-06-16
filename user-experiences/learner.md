@@ -2,7 +2,7 @@
 
 ## Stories
 
-**Basics for v0**
+### Basics
 
 - Create goals
   - `/goal create`
@@ -32,7 +32,7 @@
 - Review projects
   - `/review #project-id --completeness 89 --quality 63`
 
-**Possible future stories**
+### Additional / Undecided
 
 - Request help
   - `/request -h`

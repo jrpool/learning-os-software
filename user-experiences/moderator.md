@@ -2,7 +2,7 @@
 
 ## Stories
 
-**Happy path:**
+### Happy path
 
 - Check status of current cycle
   - `/cycle status`
@@ -13,7 +13,7 @@
 - Start reflection stage
   - `/cycle reflect`
 
-**Manual override:**
+### Manual override
 
 - Play/pause learners
   - `/learner play @handle`
