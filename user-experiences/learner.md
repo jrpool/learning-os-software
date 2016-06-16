@@ -24,8 +24,8 @@
   - `/log --retro`
   - `/log -r`
 - Log retrospective reflection
-  - `/log -r -q1 beth:30 amy:20 jose:25 tim:@15`
-  - `/log -r -q4 Amy's wrote very clean code. She can improve by submitting more PRs more frequently so that the rest of her team can stay up-to-date with her progress.`
+  - `/log -r -q1 beth:30 amy:20 jose:25 tim:15`
+  - `/log -r -q4 "Amy's wrote very clean code. She can improve by submitting more PRs more frequently so that the rest of her team can stay up-to-date with her progress."`
 - Show projects for review
   - `/project list --in-review`
   - `/project list -r`
