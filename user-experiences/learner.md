@@ -68,7 +68,7 @@ Learners can log their reflections in any order, but they questions are numbered
 
 Learners must submit reflections for every question in the retrospective in order for their retrospective to be considered "complete".
 
-1. When Moderator runs `/cycle reflect`, Learners will receive a notification to begin the retrospective in their current project channel.
+1. When Moderator runs `/cycle reflect`, Learners will receive a notification to begin the retrospective in their current project channel (and the chapter channel).
 1. `/log -r` : show retrospective status and questions
   - `@echo` responds with welcome message and instructions.
 1. Repeat...
