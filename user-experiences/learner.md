@@ -82,13 +82,22 @@ At this time, a new channel is created for each project, named with the syntax `
 @mod      > /cycle launch
 @echo     > Voting is closed. Generating projects from goals...
 
-# in project channel after projects have been created...
+# in project channel (#terrible-tiger) after projects have been created...
 @echo     > Time to start work on your projects!
 
             The first step is to create an appropriate project artifact.
             Once you've created the artifact, connect it to your project with the `/project set-artifact` command.
 
             Run `/project set-artifact --help` for more guidance.
+@learner  > /project set-artifact https://github.com/owner/repo
+@echo     > Error: missing project id.
+
+            When setting the artifact for a project, be sure to include its id (for example, #bitter-bunny-2).
+
+            Use `/project set-artifact --help` to read the docs.
+
+@learner  > /project set-artifact #terrible-tiger https://github.com/owner/repo
+@echo     > Thanks! The artifact for project #terrible-tiger is now set to https://github.com/owner/repo.
 ```
 
 ### Complete Retrospective Reflections
