@@ -14,7 +14,7 @@ Objects can be omitted when not necessary or when a sensible default is availabl
 > /vote 3 1          => vote on goals 3 and 1
 > /request -h        => submit a help request
 > /offer -f #bee-12  => offer feedback on project bee-12
-> /log retro       => log a retrospective
+> /log retro         => log a retrospective
 ```
 
 **Reason:** most command-line interfaces use verbs for commands, so learners will not have as much context switching to do when moving between other CLI environments and ours.
