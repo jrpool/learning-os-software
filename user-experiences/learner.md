@@ -18,6 +18,8 @@
   - `/goal show <id>`
 - Search goals
   - `/goal search <query>`
+- Set artifact for project
+  - `/project set-artifact #project-id <url>`
 - Search projects
   - `/project search <query>`
 - Show retrospective status and list of questions
