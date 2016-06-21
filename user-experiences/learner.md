@@ -245,27 +245,57 @@ Then learners are notified that they can review projects:
 
             Run `/log --retro` to see your retrospective questions.
             Run `/project list --in-review` for a list of projects.
-@learner  > /project list --in-review
-@echo     > Current
-            - #proj-1     : 2 reviews
-            - #proj-2     : 4 reviews
-            - #project-id : 1 review
+@learner  > /project list
+@echo     > There are 5 projects active this cycle.
+            You have completed 3 projects thus far. Your current project is in review.
 
-@learner  > /review #project-id
-@echo     > Project #project-id has been reviewed 1 time.
+            Run `/project list -r` to list projects in review.
+
+@learner  > /project list --in-review
+@echo     > You have reviewed 2/5 projects this cycle. Nice work!
+
+               Project                  C    Q    Artifact
+            X  #terrible-tiger          63   42   https://github.com/owner/repo
+            X  #anxious-aardvark        19   77   https://github.com/owner/repo
+            -  #silly-slug                        https://github.com/owner/repo
+            -  #fantastic-falcon                  https://github.com/owner/repo
+            -  #creepy-caterpillar                https://github.com/owner/repo
+@learner  > /review #silly-slug
+@echo     > Project #silly-slug has 4 reviews. You have not reviewed project #silly-slug.
 
             To review this project, analyze their artifact:
             > http://link.to.artifact/
 
             Use the rubric provided to calculate and submit a `--completeness` and `--quality` score.
-@learner  > /review #project-id --completeness 89
-@echo     > Invalid command: missing quality score
-            When reviewing a project, you need to provide a quality score.
+@learner  > /review #silly-slug --completeness 89
+@echo     > Completeness score captured for #silly-slug! Review is not yet complete.
+@learner  > /project list --in-review
+@echo     > You have reviewed 2/5 projects this cycle. Nice work!
 
-            Use `/review -h` to read the docs.
-@learner  > /review #project-id --completeness 89 --quality 72
-@echo     > Review captured! Thank you for your input.
-            4 points have been added to your mentorship score.
+               Project                  C    Q    Artifact
+            X  #terrible-tiger          63   42   https://github.com/owner/repo
+            X  #anxious-aardvark        19   77   https://github.com/owner/repo
+            -  #silly-slug              89        https://github.com/owner/repo
+            -  #fantastic-falcon                  https://github.com/owner/repo
+            -  #creepy-caterpillar                https://github.com/owner/repo
+@learner  > /review --quality 103
+@echo     > Error: missing project id.
+
+            When reviewing a project, be sure to include its id (for example, #bitter-bunny-2).
+
+            Use `/review --help` to read the docs.
+
+@learner  > /review #silly-slug --quality 103
+@echo     > Error: invalid quality score.
+
+            Quality scores must be between 1 and 100 inclusive. Decimals up to the hundreds place are allowed.
+
+            Use `/review --help` to read the docs.
+
+@learner  > /review #silly-slug --quality 72
+@echo     > Quality score captured for #silly-slug. Review is complete. Thank you for your input.
+@learner  > /review #fantastic-falcon -c75.3 -q80.8
+@echo     > Completeness and quality scores captured for #fantastic-falcon! Review is complete. Thank you for your input.
 ```
 
 ### Project Retrospective Status & Notifications
