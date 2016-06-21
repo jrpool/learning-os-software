@@ -31,6 +31,7 @@
   - `/project list -r`
 - Review projects
   - `/review #project-id --completeness 89 --quality 63`
+  - `/review #project-id -c89 -q63`
 
 ### Additional / Undecided
 
@@ -55,6 +56,40 @@
   - `/learner status @handle`
 
 ## Flows
+
+### Voting + Project Creation
+
+Learners vote on goals (after moderator runs `/cycle init`), and then projects are formed when the moderator runs `/cycle launch`.
+
+At this time, a new channel is created for each project, named with the syntax `#<project-id>`.
+
+#### Example
+
+```
+# moderator starts cycle
+@mod      > /cycle init
+@echo     > Cycle created! Voting can now begin.
+
+# learners vote on goals
+@learner  > /vote 2
+@echo     > Error: You must vote for exactly 2 goals. Try `--help` for usage.
+@learner  > /vote 2 5
+@echo     > Vote recorded! You voted for goals 2 and 5.
+@learner  > /vote 7 5
+@echo     > Vote recorded! You voted for goals 7 and 5.
+
+# after voting is complete, moderator creates projects
+@mod      > /cycle launch
+@echo     > Voting is closed. Generating projects from goals...
+
+# in project channel after projects have been created...
+@echo     > Time to start work on your projects!
+
+            The first step is to create an appropriate project artifact.
+            Once you've created the artifact, connect it to your project with the `/project set-artifact` command.
+
+            Run `/project set-artifact --help` for more guidance.
+```
 
 ### Complete Retrospective Reflections
 
