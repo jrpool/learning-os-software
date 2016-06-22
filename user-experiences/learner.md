@@ -92,9 +92,7 @@ At this time, a new channel is created for each project, named with the syntax `
 
             Run `/project set-artifact --help` for more guidance.
 @learner  > /project set-artifact https://github.com/owner/repo
-@echo     > Error: missing project id.
-
-            When setting the artifact for a project, be sure to include its id (for example, #bitter-bunny-2).
+@echo     > Error: invalid command - wrong number of arguments (1 for 2).
 
             Use `/project set-artifact --help` to read the docs.
 
