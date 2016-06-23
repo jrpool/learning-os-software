@@ -20,16 +20,10 @@ Edit, update, or add content as described in the [GitBook Help][gitbook-help].
 $ atom .    # or whatever editor you use
 ```
 
-Publish your changes using the pre-configured [npm][npm] commands:
+Publish your changes by pushing the repository:
 
 ```bash
-$ git push && npm run book:publish
-```
-
-Need more help?
-
-```bash
-$ npm run
+$ git push
 ```
 
 <!-- references -->

@@ -10,10 +10,6 @@ This document serves to capture the "recommended setup" or standard configuratio
 - 2.5GHz+ processor
 - 4GB+ RAM
 
-## Prerequisites
-
-- [Docker Toolbox][docker-toolbox]
-
 ## Env Setup & Management
 
 - [nvm][nvm] and [npm][npm] for managing Node.js versions and packages
@@ -25,8 +21,10 @@ This document serves to capture the "recommended setup" or standard configuratio
 
 ## Applications
 
+These are not strictly enforced -- use what makes you most productive. Still, many of us use:
+
 - [Atom][atom] or [vim][vim] for editing code
-- [Terminal][terminal] or [iTerm][iterm] for command shell
+- [iTerm][iterm] or [Terminal][terminal] for command shell
 
 <!-- references -->
 
@@ -38,4 +36,3 @@ This document serves to capture the "recommended setup" or standard configuratio
 [vim]:http://www.vim.org/
 [terminal]:https://en.wikipedia.org/wiki/Terminal_(OS_X)
 [iterm]:https://www.iterm2.com/
-[docker-toolbox]:https://www.docker.com/docker-toolbox

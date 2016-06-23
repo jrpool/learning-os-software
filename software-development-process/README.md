@@ -7,9 +7,9 @@ We track all development and design work on a single ZenHub board with the follo
 | New Issues    | Like it says on the tin ;-)                                                   |
 | Design / Spec | A prioritized list of issues needing to be fleshed out into full requirements |
 | Backlog       | A prioritized list of issues with adequate requirements ready to be developed |
-| To Do         | Work chosen from the backlog for the current sprint                           |
+| To Do         | Work chosen from the Backlog for the current sprint                           |
 | In Progress   | Work being done right now                                                     |
-| To Be Merged  | Issues waiting for peer review and merging                                    |
+| In Review     | Issues waiting for peer review and merging                                    |
 | Closed        | Completed Issues and closed PR's                                              |
 
 ##### Issues

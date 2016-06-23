@@ -1,10 +1,12 @@
 # Summary
 
+- [Your First Day](day-one/README.md)
 - [Architecture](architecture/README.md)
 - [Toolkit](toolkit/README.md)
   - [Shared Tools](toolkit/shared-tools.md)
   - [Standard Configuration](toolkit/standard-config.md)
 - [Software Development Process](software-development-process/README.md)
+- [Auth, Authz, and SSO](identity-management/README.md)
 - [Global Requirements](global-requirements/README.md)
   - [Lean Software Development](global-requirements/lean.md)
   - [Service-oriented Architecture](global-requirements/soa.md)
@@ -14,7 +16,6 @@
   - [Specifications for Commands](design-guide/command-interfaces.md)
   - [Specifications for GUIs](design-guide/graphical-interfaces.md)
   - [Craft Repositories](design-guide/craft-repos.md)
-- [Auth, Authz, and SSO](identity-management/README.md)
 - [User Experiences](user-experiences/README.md)
   - [Learner UX](user-experiences/learner.md)
   - [Moderator UX](user-experiences/moderator.md)

@@ -51,7 +51,7 @@ Good developers will write more robust tests for the most critical components of
 
 A good unit testing suite should run in < 5 seconds and should _never_ depend on external libraries or services.
 
-All projects should integrate with [Circle CI][circle-ci] to run tests in the cloud.
+All projects should integrate with [Codeship][codeship] to run tests in the cloud.
 
 ##### Integration tests exist for common use cases
 
@@ -59,17 +59,9 @@ Every service has a purpose and primary use case(s); integration tests explicitl
 
 ## Code Style
 
-##### Formatting conforms to shared style guide
-
-For Ruby, we use the [GitHub Ruby Styleguide][gh-ruby-styleguide].
-
-For JavaScript, we use [AirBnB's Styleguide][airbnb-js-styleguide], with the exception that semicolons are _not_ required.
-
 ##### Code is linted
 
-For Ruby, we use [Ruby Lint][ruby-lint].
-
-For JavaScript, we use [ESLint][eslint].
+For JavaScript, we use [XO][xo].
 
 ## Version Control
 
@@ -115,11 +107,11 @@ For example, in a `package.json` requiring the `gitbook-cli` package, use the sy
 <!-- references -->
 
 [ruby-lint]:https://github.com/YorickPeterse/ruby-lint
-[eslint]:http://eslint.org/
+[xo]:https://github.com/sindresorhus/xo
 [good-commit-messages]:http://chris.beams.io/posts/git-commit/
 [gh-ruby-styleguide]:https://github.com/styleguide/ruby
 [airbnb-js-styleguide]:https://github.com/airbnb/javascript
 [gh-flow]:https://guides.github.com/introduction/flow/
 [soa]:../global-requirements/soa.md
 [semver]:http://semver.org/
-[circle-ci]:https://circleci.com/
+[codeship]:codeship.com
