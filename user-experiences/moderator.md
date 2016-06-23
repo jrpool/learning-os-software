@@ -4,6 +4,8 @@
 
 ### Happy path
 
+- Create cycle, make ready for voting
+  - `/cycle init`
 - Check status of current cycle
   - `/cycle status`
 - Form projects from voting
@@ -38,6 +40,8 @@
 
 The core accountability of Moderators is to oversee cycles. They are responsible for ensuring that voting happens, that projects are formed appropriately, and that a retrospective occurs at the end of a cycle.
 
+1. `/cycle init` : create a new cycle, move to `GOAL SELECTION` state
+  - Learners can now vote on goals for this cycle
 1. `/cycle status` : check status of votes for the current cycle
   - If the cycle is ready to be launched (all active chapter learners have voted)...
     - "Ready" message is displayed
