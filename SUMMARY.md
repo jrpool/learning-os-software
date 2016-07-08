@@ -19,6 +19,7 @@
 - [User Experiences](user-experiences/README.md)
   - [Learner UX](user-experiences/learner.md)
   - [Moderator UX](user-experiences/moderator.md)
+  - [Notifications](user-experiences/notifications.md)
 - [Appendix](appendix/README.md)
   - [How to Modify This Documentation](appendix/how-to-modify.md)
 - [Glossary](GLOSSARY.md)
