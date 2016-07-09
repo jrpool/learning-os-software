@@ -8,6 +8,12 @@
   - `/goal create`
 - Vote on goals
   - `/vote <id> <id>`
+- Check own stats
+  - `/stats`
+- Check stats of player
+  - `/stats @learner`
+- Check stats of team
+  - `/stats #project-id`
 - Check status of projects
   - `/project status #project-id`
 - Check status of cycles
@@ -58,6 +64,41 @@
   - `/learner status @handle`
 
 ## Flows
+
+### Checking Stats
+
+Stats are the primary way that learners get quantitative feedback on their progress and success in the game.
+
+Learners should be able to see:
+
+1. Their own stats, both in summary and in detail
+1. Other learners' stats
+1. Team stats (aggregations thereof)
+
+#### Example
+
+```
+@learner  > /stats
+@echo     > Stats for @learner:
+            XP        [132.5] +++++++++++++
+            Support   [  89%] |========= |
+@learner  > /stats --xp
+@echo     > XP Stats for @learner:
+            Total XP:                 [132.5]
+            Projects Completed:       [    3]
+            Avg. Proj. Completeness:  [  94%]
+            Avg. Proj. Quality:       [  87%]
+            Avg. Rel. Contrib.:       [  +4%]
+@learner  > /stats @julia
+@echo     > Stats for @julia:
+            XP        [171.9] +++++++++++++++++
+            Support   [  73%] |=======   |
+@learner  > /stats #whimpering-wallabies
+@echo     > Stats for #whimpering-wallabies:
+            Total XP      [925.2]
+            Avg. XP       [144.1] ++++++++++++++
+            Avg. Support  [  76%] |=======   |
+```
 
 ### Voting + Project Creation
 
