@@ -24,12 +24,9 @@
   - `/cycle play`
   - `/cycle pause`
 - Assign learners to projects
-  - `/project add #proj-id @handle --member`
-  - `/project add #proj-id @handle --lead`
-  - `/project add @handle --member` (from project channel)
+  - `/project add #proj-id @handle`
 - Remove learners from projects
   - `/project remove #proj-id @handle`
-  - `/project remove @handle` (from project channel)
 - Start/stop retrospective
   - `/cycle play`
   - `/cycle pause`
