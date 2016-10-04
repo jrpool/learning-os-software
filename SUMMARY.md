@@ -1,7 +1,6 @@
 # Summary
 
 - [Your First Day](day-one/README.md)
-- [Software Development Process](software-development-process/README.md)
 - [Architecture](architecture/README.md)
 - [Toolkit](toolkit/README.md)
   - [Shared Tools](toolkit/shared-tools.md)
