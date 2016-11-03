@@ -1,4 +1,4 @@
-# User Experiences
+# User Actions
 
 This document lists and describes the actions available to users.
 

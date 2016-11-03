@@ -1,4 +1,4 @@
-# Moderator UX
+# Moderator Actions
 
 ## Stories
 
