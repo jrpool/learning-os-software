@@ -18,7 +18,7 @@ So read through it once. You don't have to memorize it, but you should definitel
 
 ### 2. Slack
 
-Make sure you've joined (at a minimum) the [#los][los-slack] and [#tech-errors][tech-errors-slack] channels in Slack. Every engineer is epxected to pay attention to the activity in these channels.
+Make sure you've joined (at a minimum) the [#los][los-slack] and [#tech-errors][tech-errors-slack] channels in Slack. Every engineer is expected to pay attention to the activity in these channels.
 
 ### 3. Set Up Your Environment
 

@@ -2,18 +2,16 @@
 
 This document guides the design of learner interfaces and the experiences of interacting with them.
 
-## Design Constraints
+## Top-Level Design Principles & Directives
 
-Our interface and experience design is bounded by this set of design constraints:
+Our interface and experience design is guided and bounded by these directives and principles:
 
-- The chat environment is the primary learner interface.
-- Customized secondary interfaces are avoided whenever possible.
-- All learner actions are available via commands within the chat environment.
-- We follow a command-line-first approach: all user actions are supported via a text command, with graphical interfaces being optional enhancements.
-- All game-relevant data can be expressed in text format, including learner, team, project, and cycle state and attributes.
+- A web browser, or embedded browser, is the primary learner interface.
+- Graphical interfaces for the web are responsive.
+- When possible and appropriate, actions are provided via text-based commands.
 - In textual interfaces, we use noun-verb dialogues when many operations are needed for a single object, and verb-noun dialogues when multiple objects need a similar operation performed.
 
-Read more detailed design specifications for [Command Interfaces](command-interfaces.md) and [Graphical Interfaces](graphical-interfaces.md).
+Read more detailed design specifications and constraints for [Command Interfaces](command-interfaces.md) and [Graphical Interfaces](graphical-interfaces.md).
 
 For information on the structure and purpose of craft repositories, read [craft-repos.md](craft-repos.md).
 
