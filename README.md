@@ -2,7 +2,7 @@
 
 ## Overview
 
-It's probably easier to read through the documentation contained herein by [reading the GitBook][learning-os-software-gitbook].
+Read this documentation on GitBook: [LOS Software Guide][learning-os-software-gitbook].
 
 This is the central repository for software development at Learners Guild. It gives the back-story on the best practices and global requirements for all of our software, and also provides a "jumping off point" to other repositories that comprise our software suite. Since we manage our development flow with [ZenHub][zenhub], we can also see the [consolidated Kanban board][consolidated-kanban-board] here.
 

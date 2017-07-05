@@ -22,7 +22,7 @@ Aspirationally, we would like to use a custom [Plop][plop] generator to build ne
 
 ## Default Disk Image
 
-Aspirationally, we would like to maintain a Docker image with a standard environment setup. Using the [Docker Toolbox][docker-toolbox] learners and partners can run this containerized environment on their local machine.
+Aspirationally, we would like to maintain a Docker image with a standard environment setup. Using the [Docker Toolbox][docker-toolbox] users and partners can run this containerized environment on their local machine.
 
 We also use this image as the default for our remote pairing service.
 

@@ -12,12 +12,10 @@ Objects can be omitted when not necessary or when a sensible default is availabl
 
 ```
 > /vote 3 1             => vote on goals 3 and 1
-> /review #project-id   => review a project
-> /offer -f #bee-12     => offer feedback on project bee-12
-> /log -r               => log a retrospective
+> /retro                => log a retrospective
 ```
 
-**Reason:** most command-line interfaces use verbs for commands, so learners will not have as much context switching to do when moving between other CLI environments and ours.
+**Reason:** many command-line interfaces use verbs for commands, so users will not have as much context switching to do when moving between other CLI environments and ours.
 
 ## Use nouns for navigation and inspection
 
@@ -37,21 +35,15 @@ Commands for navigation and inspection _should_ be nouns.
 
 ## Use object as context identifier for mutable actions when necessary
 
-When a context is important for actions that mutate game state, the action _should_ be supplied as an argument to a command in noun form.
+When a context is important for actions that mutate state, the action _should_ be supplied as an argument to a command in noun form.
 
 **Examples:**
 
 ```
-> /goal create                     => make a new goal
-> /cycle launch                    => start the cycle (form projects from votes)
-> /project create 12               => create a new project from goal 12
-> /project add #bee-12 @jerry -m   => add @jerry to project bee-12 as a team member
-> /learner play                    => make current learner active
-> /learner pause @jerry            => pause learner with handle @jerry
-> /learner pause                   => pause the current learner
+> /cycle launch       => start the cycle (form projects from votes)
 ```
 
-**Reason:** there will be a growing list of ways to interact with core game objects, so having an object-first approach provides important context and reduces overall amount of commands.
+**Reason:** there will be a growing list of ways to interact with core system objects, so having an object-first approach provides important context and reduces overall amount of commands.
 
 ## Provide an immediate response
 

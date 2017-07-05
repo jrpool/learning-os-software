@@ -8,13 +8,13 @@ Any user on the system, regardless of which roles that user plays.
 
 A piece of curriculum that may be completed by a Learner designed to teach and give practice with one or more particular skills.
 
-# Member Learner
+# Member User
 
-A Member Learner is a Learners Guild Member who is currently engaged in the program within a given Pod.
+A Member Uearner is a Learners Guild Member who is currently engaged in the program within a given Pod.
 
-# Non-member Learner
+# Non-member User
 
-A Non-Member Learner is someone who has not yet indicated they want to join a Pod, but may eventually convert to an Applicant. Use-case: imagine that students enrolled with Black Girls Code use the Learners Guild challenge system for part of their learning within that organization. Some may later decide to apply to become a Member of Learners Guild.
+A Non-Member User is someone who has not yet indicated they want to join a Pod, but may eventually convert to an Applicant. Use-case: imagine that students enrolled with Black Girls Code use the Learners Guild challenge system for part of their learning within that organization. Some may later decide to apply to become a Member of Learners Guild.
 
 # Organization
 

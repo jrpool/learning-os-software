@@ -38,7 +38,7 @@ All issues _must_ use the standard issue template, unless they are non-goal issu
 
 Pull requests are used to update the content of a craft repository. Any active learner can open a pull request against the master branch of a craft repo to add/edit/remove content.
 
-Only learners with proper privileges (for now, professional players) can accept/merge pull requests.
+Only users with proper privileges (for now, professional players) can accept/merge pull requests.
 
 All changes to the files in craft repositories _must_ be made via pull requests, in line with [GitHub flow][gh-flow-guide].
 

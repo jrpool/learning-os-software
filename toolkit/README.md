@@ -7,5 +7,5 @@ In many cases we will leave tool choice to individual developers, but there are 
 This section addresses questions like:
 
 - Which standard tools (scripts/apps/services) do we all share and use for common tasks?
-- What toolkit/environment do we provide to learners?
+- What toolkit/environment do we provide to users?
 - How should I configure my local environment to reflect team practices?

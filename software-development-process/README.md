@@ -7,7 +7,7 @@ Our software development process has two distinct phases, design / prototype and
 
 In certain cases, issues will begin their life on the [Implementation Board][implementation-board]. For example, issues related to bugs, addressing technical debt, or "one off" things that don't require design.
 
-Most of the time, however, will start on the [Design / Prototype Board][design-prototype-board]. During this phase, game mechanics are developed, the user experience and interface is designed, and engineering (as well as other stakeholders) have a chance to provide feedback on the design, raising any flags that could be problematic later. Once the review feedback has been digested (and potentially integrated), issues become "Ready for Implementation", and it is at this point that the issue moves from the [Design / Prototype Board][design-prototype-board] to the [Implementation Board][implementation-board].
+Most of the time, however, will start on the [Design / Prototype Board][design-prototype-board]. During this phase, system mechanics are developed, the user experience and interface is designed, and engineering (as well as other stakeholders) have a chance to provide feedback on the design, raising any flags that could be problematic later. Once the review feedback has been digested (and potentially integrated), issues become "Ready for Implementation", and it is at this point that the issue moves from the [Design / Prototype Board][design-prototype-board] to the [Implementation Board][implementation-board].
 
 The lifecycle of a typical issue on the board looks something like this:
 
@@ -24,25 +24,11 @@ When we actually start coding, we use [GitHub Flow][github-flow] to do so, which
   https://docs.google.com/a/learnersguild.org/presentation/d/1P2jYADEsBalKP0i5A2zLiw-zyC8gv1iwXIcyudL9WpU/edit?usp=sharing
 -->
 
-## Boards and Pipelines
-
-### Design / Prototype
-
-The [Design / Prototype Board][design-prototype-board] has the following pipelines:
-
-| Pipeline                 | Description                                                                     |
-|:-------------------------|:--------------------------------------------------------------------------------|
-| New Issues               | Like it says on the tin ;-)                                                     |
-| Backlog                  | A prioritized list of issues with adequate requirements ready to be developed   |
-| Game Mechanics           | Work being done right now on developing the mechanics (how it works)            |
-| UI Design                | Work being done right now related to the user interface (if applicable)         |
-| Review                   | Issues that are being reviewed by all stakeholders before implementation begins |
-| Ready for Implementation | Issues that have had review feedback integrated and can now be implemented      |
-| Closed                   | Completed Issues                                                                |
+## Project Board and Pipeline                                               |
 
 ### Implementation
 
-The [Implementation Board][implementation-board] has the following pipelines:
+The [Implementation Board][implementation-board] has the following pipeline:
 
 | Pipeline      | Description                                                                   |
 |:--------------|:------------------------------------------------------------------------------|
@@ -57,5 +43,4 @@ The [Implementation Board][implementation-board] has the following pipelines:
 
 [zenhub]: https://www.zenhub.com/
 [github-flow]: https://guides.github.com/introduction/flow/
-[design-prototype-board]: https://github.com/LearnersGuild/game-prototype#boards
-[implementation-board]: https://github.com/LearnersGuild/game#boards
+[project-board]: https://github.com/LearnersGuild/echo#boards
