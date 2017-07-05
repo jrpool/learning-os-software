@@ -1,6 +1,6 @@
 {
   "gitbook": "2.x.x",
-  "plugins": ["edit-link", "prism", "-highlight", "github"],
+  "plugins": ["edit-link", "github"],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/LearnersGuild/learning-os-software/tree/master",
@@ -9,5 +9,8 @@
     "github": {
       "url": "https://github.com/LearnersGuild/learning-os-software"
     }
+  },
+   "variables": {
+    "guide_glossary": "git+https://github.com/LearnersGuild/partners.git/GLOSSARY.md"
   }
 }

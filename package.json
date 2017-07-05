@@ -1,6 +1,6 @@
 {
   "name": "learning-os-software",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Learning OS Software",
   "scripts": {
     "book:clean": "rimraf _book",
