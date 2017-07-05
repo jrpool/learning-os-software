@@ -3,14 +3,11 @@
   "plugins": ["edit-link", "prism", "-highlight", "github"],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/LearnersGuild/product-development/tree/master",
+      "base": "https://github.com/LearnersGuild/learning-os-software/tree/master",
       "label": "Edit This Page"
     },
     "github": {
-      "url": "https://github.com/LearnersGuild/product-development"
+      "url": "https://github.com/LearnersGuild/learning-os-software"
     }
-  },
-  "variables": {
-    "guide_glossary": "git+https://github.com/LearnersGuild/guide.git/GLOSSARY.md"
   }
 }

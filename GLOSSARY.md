@@ -1,5 +1,3 @@
-{% include book.guide_glossary %}
-
 # User
 
 Any user on the system, regardless of which roles that user plays.
