@@ -12,11 +12,7 @@ Okay, that may not be very satisfying, as it doesn't get you any closer to havin
 
 So read through it once. You don't have to memorize it, but you should definitely have familiarized yourself with everything herein. Trust us -- it will save you time in the long run.
 
-### 2. Slack
-
-Make sure you've joined (at a minimum) the [#los][los-slack] and [#tech-errors][tech-errors-slack] channels in Slack. Every engineer is expected to pay attention to the activity in these channels.
-
-### 3. Set Up Your Environment
+### 2. Set Up Your Environment
 
 Rather than trying to keep this guide up-to-date with all of the changes across all of our various repositories and services, what we recommend is to follow the `README.md` instructions for each of the key services **in this order**. Before you do that though, you've already read this guide in its entirety, right? Especially the [architecture][architecture-software-guide] section, right? **RIGHT?!?!** Good.
 
@@ -25,7 +21,7 @@ So here's the order of operations. If you follow these steps, you _should_ be up
 1. [idm][idm-repo]: Identity Management Service
 2. [echo][echo-repo]: Echo Service
 
-#### Seed Your Database(s)
+#### 3. Seed Your Database(s)
 
 Over time, the process by which you do this will change and evolve. But (obviously) before you can do anything with any of our services, you're going to need a user account, since all of our services use a single-sign-on system. How do you do this next step, then?
 
