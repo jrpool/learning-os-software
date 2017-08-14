@@ -18,7 +18,7 @@ Make sure to join the [#echo-alerts][echo-alerts] channel in Slack. Also request
 
 Install the [zoom][zoom] client to enable attendance to the daily morning standup as well as one on one sessions with an SEP.
 
-## Caledar
+## Calendar
 
 Add the phase-4 calendar (https://learnersguild.slack.com/archives/C5W5DT35E/p1498498062066374) to your google calendar to receive event alerts.
 
