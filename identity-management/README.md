@@ -2,7 +2,7 @@
 
 ## Background
 
-Perhaps the biggest challenge when developing a [service-oriented architecture][soa] is handling authentication (auth) and authorization (authz). In a monolithic app, this challenge is severely reduced: create a users table, a roles table, and a capabilities table, and your "Good to Go(TM)".
+Perhaps the biggest challenge when developing a [service-oriented architecture][soa] is handling authentication (auth) and authorization (authz). In a monolithic app, this challenge is severely reduced: create a users table, a roles table, and a capabilities table, and you're "Good to Go(TM)".
 
 However, in a SOA, we need a way to ensure that every service knows who is making requests, whether they are a valid user, what capabilities (i.e., permissions) they have, etc. Very "public" SOA-providers (e.g., Google, Facebook, GitHub) typically solve this by implementing an [OAuth2][oauth2] provider. At the time of this writing, OAuth2 is the most robust way to provide a way for applications on the platform to authenticate and authorize various operations. However, there's a pretty large up-front cost to building-out an OAuth2 provider.
 

@@ -16,7 +16,6 @@ What we mean by "Lean" is that, as much as is possible, we don't want to spend _
 
 ## Related Philosophies
 
-- Facebook's ["Move Fast and Break Things"][move-fast-and-break-things]
 - ["Perfect is the Enemy of Good"][perfect-is-the-enemy-of-good]
 
 

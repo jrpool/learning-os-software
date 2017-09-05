@@ -4,13 +4,13 @@ Congratulations on becoming a member of the LOS development team! This part of t
 
 ## Getting Started
 
-Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please check out this repository, fix it, and submit a pull request. You'll be saving every person after you time if you do this. **Be a hero.**
+Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please check out this repository, fix it, and submit a pull request. You'll be saving every person after you time if you do this. **Be a hero.** 💪
 
 ### 1. Read This Guide in Its Entirety
 
 Okay, that may not be very satisfying, as it doesn't get you any closer to having things running, but it's pretty crucial. We're a distributed team, which means that we rely heavily on written documentation to stay synchronized. Having this software guide helps everyone understand where we're coming from philosophically, while at the same time orienting people to decisions we've made around [best practices][best-practices-software-guide], [architecture][architecture-software-guide], and [design][design-guide-software-guide].
 
-So read through it once. You don't have to memorize it, but you should definitely have familiarized yourself with everything herein. Trust us -- it will save you time in the long run.
+So read through it once. You don't have to memorize it, but you should definitely have familiarized yourself with the kinds of content available here. Trust us -- it will save you time in the long run.
 
 ### 2. Set Up Your Environment
 
@@ -20,17 +20,10 @@ So here's the order of operations. If you follow these steps, you _should_ be up
 
 1. [idm][idm-repo]: Identity Management Service
 2. [echo][echo-repo]: Echo Service
-
-#### 3. Seed Your Database(s)
-
-Over time, the process by which you do this will change and evolve. But (obviously) before you can do anything with any of our services, you're going to need a user account, since all of our services use a single-sign-on system. How do you do this next step, then?
-
-Find a buddy. Seriously. Head on over to [#phase-4][phase-4-slack], let folks know you've got the services up and running and you need help getting some seed / test data going. That may be an unsatisfying answer, but it's the best we've got right now.
+2. [graphiql][graphiql-repo]: GraphiQL Service
 
 
 <!-- references -->
-
-[phase-4-slack]: https://learnersguild.slack.com/archives/phase-4
 
 [best-practices-software-guide]: ../best-practices/README.md
 [architecture-software-guide]: ../architecture/README.md
@@ -38,3 +31,4 @@ Find a buddy. Seriously. Head on over to [#phase-4][phase-4-slack], let folks kn
 
 [idm-repo]: https://github.com/LearnersGuild/idm
 [echo-repo]: https://github.com/LearnersGuild/echo
+[graphiql-repo]: https://github.com/LearnersGuild/graphiql

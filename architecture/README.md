@@ -22,26 +22,38 @@ Everything we build conforms the principles of [service-oriented-architectures](
 - **Endpoint:** https://echo.learnersguild.org
 - **Repository:** https://github.com/LearnersGuild/echo
 
+#### graphiql
+
+- **Accountabilities:** graphiql interface w/ all LOS services having a GraphQL API
+- **Endpoint:** https://graphiql.learnersguild.org
+- **Repository:** https://github.com/LearnersGuild/graphiql
+
 #### curriculum
 
 - **Domains:** guide, phases, modules, skills, cos, users, calendar
 - **Accountabilities:** learners guide, phase list, module list, skills tracking, users list
-- **Endpoint:** https://curriculum.learnersguild.org/guide
-- **Repository:** https://github.com/guildCrafts/curriculum
+- **Endpoint:** https://curriculum.learnersguild.org
+- **Repository:** https://github.com/GuildCrafts/curriculum
 
 ### External services
 
-#### slack (Chat)
+#### GitHub
+
+- **Domains:** user authentication
+- **Accountabilities:** third-party authentication of IDM account holders
+- **Endpoint:** https://api.github.com
+
+#### Slack (Chat)
 
 - **Domains:** real-time chat among members, integration with Echo service
 - **Accountabilities:** real-time chat, single-sign-on, custom `/slash` commands
 - **Endpoint:** https://learnersguild.slack.com
 
-#### hubspot
+#### HubSpot
 
 - **Domains:** alerts, individual deadlines, non-coding related information
-- **Accountabilities:** 
-- **Endpoint:**
+- **Accountabilities:** end-to-end guild membership tracking
+- **Endpoint:** https://api.hubspot.com
 
 ### Key Libraries
 
