@@ -20,7 +20,7 @@ So here's the order of operations. If you follow these steps, you _should_ be up
 
 1. [idm][idm-repo]: Identity Management Service
 2. [echo][echo-repo]: Echo Service
-2. [graphiql][graphiql-repo]: GraphiQL Service
+3. [curriculum][curriculum-repo]: Curriculum
 
 
 <!-- references -->
@@ -31,4 +31,4 @@ So here's the order of operations. If you follow these steps, you _should_ be up
 
 [idm-repo]: https://github.com/LearnersGuild/idm
 [echo-repo]: https://github.com/LearnersGuild/echo
-[graphiql-repo]: https://github.com/LearnersGuild/graphiql
+[curriculum-repo]: https://github.com/LearnersGuild/curriculum
