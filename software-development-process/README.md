@@ -15,7 +15,7 @@ The lifecycle of a typical issue on the board looks something like this:
 
 ## GitHub Flow
 
-When we actually start coding, we use [GitHub Flow][github-flow] to do so, which means that most work ends up with a pull request being submitted. The lifecycle of pull request on the board looks something like this:
+When we actually start coding, we use [GitHub Flow][github-flow] to do so, which means that most work ends up with a pull request being submitted. The lifecycle of a pull request on the board looks something like this:
 
 <!--
   The flowchart images can be edited here:
