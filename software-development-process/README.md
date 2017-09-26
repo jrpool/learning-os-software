@@ -7,7 +7,7 @@ Our software development process has two distinct phases, design / prototype and
 
 In certain cases, issues will begin their life on the **[Ready For Implementation Board]**. For example, issues related to bugs, addressing technical debt, or "one off" things that don't require design.
 
-Most of the time, however, will start on the **[Icebox Board]**. During this phase, system mechanics are developed, the user experience and interface is designed, and engineering (as well as other stakeholders) have a chance to provide feedback on the design, raising any flags that could be problematic later. Once the review feedback has been digested (and potentially integrated), issues become "Ready for Implementation", and it is at this point that the issue moves from the **[Icebox Board]** to the **[Ready For Implementation Board]**.
+Most of the time, however, issues will start on the **[Icebox Board]**. During this phase, system mechanics are developed, the user experience and interface is designed, and engineering (as well as other stakeholders) have a chance to provide feedback on the design, raising any flags that could be problematic later. Once the review feedback has been digested (and potentially integrated), issues become "Ready for Implementation", and it is at this point that the issue moves from the **[Icebox Board]** to the **[Ready For Implementation Board]**.
 
 The lifecycle of a typical issue on the board looks something like this:
 
