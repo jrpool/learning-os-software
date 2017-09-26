@@ -2,8 +2,6 @@
 
 All of our software has certain requirements that must be considered "global" to the entire system. These requirements are not "functional" in nature; that is, they don't satisfy a particular end-user story. Instead, they are more akin to "constraints" placed on the development of the overall system.
 
-## Easily-Articulated Requirements
-
 ### [Lean](lean.md)
 
 ### [Service-oriented Architecture](soa.md)
