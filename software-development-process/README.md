@@ -22,20 +22,17 @@ When we actually start coding, we use [GitHub Flow][github-flow] to do so, which
   https://docs.google.com/a/learnersguild.org/presentation/d/1P2jYADEsBalKP0i5A2zLiw-zyC8gv1iwXIcyudL9WpU/edit?usp=sharing
 -->
 
-## Project Board and Pipeline                                               |
+## Summary
 
-### Implementation
+The typical issue has the following pipeline:
 
-The **[Ready For Implementation Board]** has the following pipeline:
-
-| Pipeline      | Description                                                                   |
+| Board      | Description                                                                   |
 |:--------------|:------------------------------------------------------------------------------|
-| Icebox    | Like it says on the tin ;-)                                                   |
-| Ready For Implementation       | A prioritized list of issues with adequate requirements ready to be developed |
-| In Progress   | Work being done right now                                                     |
-| In Review        | Issues waiting for peer review and merging                                    |
-| Closed        | Completed Issues and closed PR's                                              |
-
+| Icebox    | A proposed artifact whose interface and deployment context are not yet designed        |
+| Ready For Implementation   | A prioritized list of issues with adequate requirements ready to be developed |
+| In Progress   | Work being done now                                                     |
+| In Review        | Completed work waiting for peer review and merging                                    |
+| Closed        | Completed work with a closed PR                                            |
 
 <!-- links -->
 
