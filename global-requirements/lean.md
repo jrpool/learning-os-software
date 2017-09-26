@@ -9,10 +9,10 @@ What we mean by "Lean" is that, as much as is possible, we don't want to spend _
 1.	**Eliminate waste:** ruthlessly avoid bloated process, unnecessary features, context switches, and defects
 2.	**Amplify learning:** software is written iteratively, with learnings from previous cycles incorporated in later ones
 3.	**Decide as late as possible:** delaying decisions as much as possible until they can be made based on facts and not on uncertain assumptions and predictions
-4.	**Deliver as fast as possible:** the sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration
+4.	**Deliver as fast as possible:** the sooner the end product is delivered without major defects, the sooner feedback can be received and incorporated into the next iteration
 5.	**Empower the team:** find good people and let them do their job
 6.	**Build integrity in:** refactor frequently, ensure modularity in designs, write tests
-7.	**See the whole:** ensure different modules and services work together as a cohesive whole
+7.	**See the whole:** ensure that different modules and services work together as a cohesive whole
 
 ## Related Philosophies
 
