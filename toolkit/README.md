@@ -10,7 +10,7 @@ We use [git][git] and [GitHub][github] for version control.
 
 ## Issue Tracking
 
-We [GitHub][github-projects] (which integrates with GitHubs issues and PRs) to track issues, and to coordinate development.  To gain access request an invitation from a project lead.
+We use [GitHub][github-projects] (which integrates with GitHub issues and PRs) to track issues, and to coordinate development.  To gain access, request an invitation from a project lead.
 
 ## Slack
 
@@ -18,7 +18,7 @@ You'll be automatically invited to the relevant channels in Slack. Every develop
 
 ## Zoom
 
-Install the [zoom][zoom] client to enable attendance to the daily morning standup as well as one on one sessions with an SEP.
+Install the [zoom][zoom] client to enable attendance to the daily morning standup as well as one-on-one sessions with an SEP.
 
 
 <!-- references -->
