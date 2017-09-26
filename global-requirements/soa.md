@@ -1,8 +1,8 @@
 # Service-oriented Architecture
 
-The Learners Guild software is comprised of a suite of [micro-services][microservices-wikipedia] that work in unison to deliver the all of the functionality needed by the overall system. This style of architecture is known as a [Service-orented Architecture (SOA)][soa-wikipedia]. SOA makes it easier for software components on computers connected over a network to cooperate. Every computer can run any number of services, and each service is built in a way that ensures that the service can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program itself.
+The Learners Guild software is comprised of a suite of [micro-services][microservices-wikipedia] that work in unison to deliver all of the functionality needed by the overall system. This style of architecture is known as a [service-orented architecture (SOA)][soa-wikipedia]. SOA makes it easier for software components on computers connected over a network to cooperate. Every computer can run any number of services, and each service is built in a way that ensures that the service can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program itself.
 
-SOA is fundamentally a network-powered extension of [Modular programming][modular-programming-wikipedia] and the [Unix philosophy][unix-philosophy-wikipedia].
+SOA is fundamentally a network-powered extension of [modular programming][modular-programming-wikipedia] and the [Unix philosophy][unix-philosophy-wikipedia].
 
 Services fall within one of three [service types](#service-types) and adhere to the specifications of their associated type.
 
@@ -24,11 +24,11 @@ Does an existing piece of software (open-source, SaaS, or otherwise) already pro
 
 ### Ease of Replacement
 
-If a service needs to be replaced for some reason (scalability, maintainability, etc.), as long as we provide a consistent API to the consumers of that service, *how* something is implementation is irrelevant. This allows for drop-in replacement without disturbing the rest of the system.
+If a service needs to be replaced for some reason (scalability, maintainability, etc.), as long as we provide a consistent API to the consumers of that service, *how* something is implemented is irrelevant. This allows for drop-in replacement without disturbing the rest of the system.
 
 ### Best Tool for the Job
 
-In a typical monolithic web application, there's typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA-approach, each service is responsible for its own data and interfaces.
+In a typical monolithic web application, there's typically a single data store (relational DBMS), front-end framework (server-rendered templates, React.js, or whatever), etc. Developers are then forced to figure out how to solve the problem within that framework. With an SOA approach, each service is responsible for its own data and interfaces.
 
 ## Service Types
 
