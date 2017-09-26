@@ -12,7 +12,7 @@ All of our software has certain requirements that must be considered "global" to
 
 Services are as heavy as they need to be, but never heavier. The human interface has a strong influence on service complexity; to keep the service simple, start by ensuring a simple interface.
 
-Each human-facing service should expose a command line interface when possible, and resort to a GUI only when needed. Solve the simplest problem with the simplest solution. Keep it simple. Review the [design guide](../design-guide) for our approach to UI and UX design.
+Each human-facing service should expose a command line interface when possible, and resort to a GUI only when needed. Solve the simplest problem with the simplest solution. Keep it simple.
 
 It may be the case that there are _multiple_ command-line interfaces. For example, a Group Collaboration Service might provide commands or "bot" interactions to allow interactions with various services.
 
