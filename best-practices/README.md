@@ -8,22 +8,21 @@ At Learners Guild, we adhere to the following practices.
 
 ##### All communication over encrypted channel
 
-APIs should only expose endpoints over HTTPS. This should be true for standard request-response APIs (RESTful and otherwise) as well as any "push" APIs (via something like Web Sockets).
+APIs should expose endpoints only over HTTPS. This should be true for standard request-response APIs (RESTful and otherwise) as well as any "push" APIs (via something like Web Sockets).
 
 Client applications should always communicate with internal APIs over HTTPS.
-
 
 ## Documentation
 
 ##### Every repository has a README
 
-All organization repositories have a README.md file in the root directory that explains the intent for that piece of software.
+Every organization repository has a README.md file in the root directory that explains the intent for that piece of software.
 
 At minimum, this document covers or links to:
 
 - Purpose
 - Example use case
-- Installation / getting started
+- Installation and getting started
 - How to contribute
 - Where to go for help
 
