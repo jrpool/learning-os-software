@@ -103,8 +103,35 @@ Whenever possible and appropriate, fuzzy version check is preferred so that new 
 
 For example, in a `package.json` requiring the `gitbook-cli` package, use the syntax: `"gitbook-cli": "^1.0.0"` to match _any_ release with a major version number `1` (`1.x.x`). Do not use `"gitbook-cli": "1.0.0"` because this locks in a single major/minor/patch release and will not allow for updates when new patches and minor releases come out.
 
+## File structure
+
+Some apps are server-only (e.g., an API), other apps are client-only (e.g., a single-page app), and other apps may be [universal][universal-javascript] (e.g., API + user interface).
+
+With that in mind, file structure may vary a bit from project to project. Here is what someone can expect (for the most part):
+
+    CONTRIBUTING.md   # how to edit, or otherwise contribute to, the codebase
+    LICENSE           # license text (e.g., "ISC" or "MIT" for open-source or "UNLICENSED" for proprietary)
+    README.md         # purpose, orientation, installation, getting started
+    src
+      client/         # (for client and universal apps) code that only runs client-side
+      common/         # (for universal apps) code that may run client- or server-side
+      config/         # configuration files or code
+      data/           # database migrations and configuration
+      dist/           # (for client and universal apps) in .gitignore, for bundled assets
+      public/         # (for server and universal apps) publicly-accessible static assets
+      server/         # (for server and universal apps) code that only runs server-side
+        actions/      # core business logic; 1 function exported per module (file)
+        graphql/      # GraphQL API definition
+          mutations/  # GraphQL mutation fields
+          queries/    # GraphQL query fields
+          schemas/    # GraphQL custom schemas
+        services/     # internal services (interfaces to external services)
+        workers/      # background task processors
+      test/           # test utilities
+
 <!-- references -->
 
+[universal-javascript]:https://medium.com/@ghengeveld/isomorphism-vs-universal-javascript-4b47fb481beb
 [ruby-lint]:https://github.com/YorickPeterse/ruby-lint
 [xo]:https://github.com/sindresorhus/xo
 [good-commit-messages]:http://chris.beams.io/posts/git-commit/
