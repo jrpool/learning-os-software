@@ -4,7 +4,7 @@ Congratulations on becoming a member of the LOS development team! This part of t
 
 ## Getting Started
 
-Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please check out this repository, fix it, and submit a pull request. You'll be saving every person after you time if you do this. **Be a hero.** 💪
+Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please [fork this repository, fix it, and submit a pull request](https://github.com/LearnersGuild/learning-os-software/blob/master/appendix/how-to-modify.md). You'll be saving every person after you time if you do this. **Be a hero.** 💪
 
 ### 1. Read This Guide in Its Entirety
 
