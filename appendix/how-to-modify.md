@@ -28,7 +28,7 @@ Push your changes to your fork by pushing the repository:
 $ git push
 ```
 
-At https://github.com/LearnersGuild/learning-os-software, click the "New pull request" button and then the "compare across forks" link. Then, in the "head fork" menu, choose your own fork. Then click the "Make pull request" button, fill out the form with a summary and comment, and click the "Make pull request" button.
+At https://github.com/LearnersGuild/learning-os-software, click the "New pull request" button and then the "compare across forks" link. Then, in the "head fork" menu, choose your own fork. This causes a form to be displayed. Enter a title for your pull request, and any comment you wish to make. Then click the "Create pull request" button. This opens a pull request for review and approval or other action by an admin.
 
 <!-- references -->
 
