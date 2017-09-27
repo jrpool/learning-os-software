@@ -32,6 +32,6 @@ At https://github.com/LearnersGuild/learning-os-software, click the "New pull re
 
 <!-- references -->
 
-[gfm]:https://help.github.com/articles/github-flavored-markdown/
+[gfm]:https://help.github.com/articles/basic-writing-and-formatting-syntax/
 [gitbook-help]:https://help.gitbook.com/
 [npm]:https://docs.npmjs.com/
