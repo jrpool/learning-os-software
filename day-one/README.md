@@ -1,10 +1,10 @@
-# Your First Day
+# Your First Day(s)
 
 Congratulations on becoming a member of the LOS development team! This part of the guide is meant to get you oriented, and with any luck, up-and-running on all of our software services on your local development machine.
 
 ## Getting Started
 
-Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please check out this repository, fix it, and submit a pull request. You'll be saving every person after you time if you do this. **Be a hero.** 💪
+Please keep in mind that, from time to time, this guide may become outdated. If you notice that it _has_ become outdated, please check out this repository, fix it, and submit a pull request. You'll be saving every person after you time if you do this. This will make your orientation and installation process slower, but that’s OK, because you will be saving time for all future users of this documentation (and you’ll be getting familiar with the LOS and its dependencies). **Be a hero.** 💪
 
 ### 1. Read This Guide in Its Entirety
 
