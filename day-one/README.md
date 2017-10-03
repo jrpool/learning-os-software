@@ -32,5 +32,5 @@ So here's the order of operations. If you follow these steps, you _should_ be up
 
 [idm-repo]: https://github.com/LearnersGuild/idm
 [echo-repo]: https://github.com/LearnersGuild/echo
-[curriculum-repo]: https://github.com/LearnersGuild/curriculum
+[curriculum-repo]: https://github.com/LearnersGuild/curriculum/blob/master/DEVELOPMENT.md
 [graphiql-repo]: https://github.com/LearnersGuild/graphiql
